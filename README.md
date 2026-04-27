@@ -26,496 +26,575 @@ A curated list of awesome Model Context Protocol (MCP) servers. MCP is an open p
 
 ## Examples of Supported Clients
 
-|                                                                                                                                                                                          | MCP Host                                                                    | Documentation                                                                                       |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [<div align="center"><img src="https://github.com/user-attachments/assets/b0ea1e57-df16-4b04-9276-1980e17ab6ec" height="20"/></div>](https://www.claudedesktop.com/)                                                                       | [Claude Desktop](https://claude.ai)                            | [Claude x MCP](https://modelcontextprotocol.io/quickstart)                                           |
-| [<div align="center"><img src="https://zed.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo_icon.d67dc948.webp&w=64&q=100" height="20"/></div>](https://zed.dev/)                                                          | [Zed Editor](https://zed.dev/)                                              | [Zed x MCP](https://zed.dev/blog/mcp)                                                      |
-| [<div align="center"><img src="https://storage.googleapis.com/sourcegraph-assets/docs/images/cody/cody-logomark-default.svg" height="20"/></div>](https://sourcegraph.com/cody)          | [Sourcegraph Cody](https://sourcegraph.com/cody)                            | [Cody x MCP](https://sourcegraph.com/blog/cody-supports-anthropic-model-context-protocol) |
-| [<div align="center"><img src="https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/664c918ec47bacdd3acdc167_favicon%408x.png" height="20"/></div>](https://sourcegraph.com/cody) | [Continue](https://www.continue.dev/)                                       | [Continue x MCP](https://blog.continue.dev/model-context-protocol)                                  |
-| [<div align="center"><img src="https://github.com/user-attachments/assets/211d0c2b-04de-471e-b1ed-97da94a58d82" height="20"/></div>](https://github.com/Upsonic/gpt-computer-assistant)  | [GPT Computer Assistant](https://github.com/Upsonic/gpt-computer-assistant) | [GCA x MCP](https://github.com/Upsonic/gpt-computer-assistant)                                      |
-| [<div align="center"><img src="https://raw.githubusercontent.com/danny-avila/LibreChat/0855677a36d76cafa5e064b7e346eb3f74c6af2a/client/public/assets/logo.svg" height="20"/></div>](https://www.librechat.ai/) | [LibreChat](https://www.librechat.ai/) | [LibreChat Agents x MCP](https://www.librechat.ai/docs/features/agents#model-context-protocol-mcp) |
-| [<div align="center"><img src="https://cursor.com/favicon.ico" height="20"/></div>](https://www.cursor.com/) | [Cursor](https://www.cursor.com/) | [Cursor x MCP](https://docs.cursor.com/advanced/model-context-protocol) |
-| [<div align="center"><img src="https://www.enconvo.com/favicon.ico" height="20"/></div>](https://www.enconvo.com/) | [Enconvo](https://www.enconvo.com/) | [Enconvo x MCP](https://docs.enconvo.com/docs/features/model-context-protocol) |
-| [<div align="center"><img src="https://block.github.io/goose/img/logo_light.png" height="20"/></div>](https://block.github.io/goose/) | [Goose](https://block.github.io/goose/) | [Goose x MCP](https://block.github.io/goose/docs/getting-started/using-extensions) | 
-| [<div align="center"><img src="https://raw.githubusercontent.com/evilsocket/search/refs/heads/main/logo.png" height="20"/></div>](https://github.com/evilsocket/nerve) | [Nerve](https://github.com/evilsocket/nerve) | [Nerve x MCP](https://github.com/evilsocket/nerve/blob/main/docs/index.md#%EF%B8%8F-adding-tools) | 
-| [<div align="center"><img src="https://raw.githubusercontent.com/mcp-router/mcp-router/refs/heads/main/static/img/logo.svg" height="20"/></div>](https://mcp-router.net) | [MCP Router](https://github.com/mcp-router/mcp-router) | [MCP Router x MCP](https://mcp-router.net) |
-| [<div align="center"><img src="https://raw.githubusercontent.com/pietrozullo/mcp-use/refs/heads/main/docs/favicon.svg" height="20"/></div>](https://github.com/pietrozullo/mcp-use) | [mcp-use](https://github.com/pietrozullo/mcp-use) | [mcp-use x MCP](https://docs.mcp-use.io/introduction) |
-| [<div align="center"><img src="https://wassist.app/whatsmcp.png" height="20"/></div>](https://wassist.app/mcp/) | [WhatsMCP](https://wassist.app/mcp/) | [WhatsApp x MCP](https://wassist.app/mcp/) |
-| [<div align="center"><img src="https://github.com/user-attachments/assets/7d5442e5-4542-4942-afde-a55d5288a40c" height="20"/></div>](https://code.visualstudio.com/) | [Visual Studio Code](https://code.visualstudio.com/) | [VS Code x MCP](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) |
+|                                                                                                                                                                                          | MCP Host                                                                    | Documentation                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| <img src="https://avatars.githubusercontent.com/u/6430791" alt="Claude.app" width="40" height="40">                                                                                      | [Claude.app](https://claude.ai)                                             | [MCP server setup](https://modelcontextprotocol.io/quickstart/user)                                           |
+| <img src="https://avatars.githubusercontent.com/u/134943970" alt="Cursor" width="40" height="40">                                                                                        | [Cursor](https://cursor.com)                                                | [MCP server setup](https://docs.cursor.com/context/model-context-protocol)                                    |
+| <img src="https://avatars.githubusercontent.com/u/182288589" alt="Continue" width="40" height="40">                                                                                      | [Continue](https://github.com/continuedev/continue)                         | [MCP server setup](https://docs.continue.dev/customize/context-providers#model-context-protocol-mcp)         |
+| <img src="https://avatars.githubusercontent.com/u/170994773" alt="Cline" width="40" height="40">                                                                                         | [Cline](https://github.com/cline/cline)                                     | [MCP server setup](https://github.com/cline/cline/blob/main/docs/mcp/README.md)                              |
+| <img src="https://avatars.githubusercontent.com/u/10232950" alt="Zed" width="40" height="40">                                                                                            | [Zed](https://zed.dev)                                                      | [MCP server setup](https://zed.dev/docs/assistant/model-context-protocol)                                     |
+| <img src="https://avatars.githubusercontent.com/u/41454982" alt="Windsurf" width="40" height="40">                                                                                       | [Windsurf Editor](https://codeium.com/windsurf)                             | [MCP server setup](https://docs.codeium.com/windsurf/mcp)                                                     |
+| <img src="https://avatars.githubusercontent.com/u/186807194" alt="Copilot.app" width="40" height="40">                                                                                   | [GitHub Copilot](https://github.com/features/copilot)                       | [MCP server setup](https://docs.github.com/en/copilot/customizing-copilot/using-model-context-protocol-with-github-copilot) |
+| <img src="https://avatars.githubusercontent.com/u/50659782" alt="Entelligence.AI" width="40" height="40">                                                                                | [Entelligence.AI](https://www.entelligence.ai)                              | [MCP server setup](https://docs.entelligence.ai/mcp)                                                         |
+| <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-logo.max-200x200.png" alt="Gemini" width="40" height="40">                                              | [Gemini CLI](https://github.com/google-gemini/gemini-cli)                   | [MCP server setup](https://github.com/google-gemini/gemini-cli?tab=readme-ov-file#extension-via-mcp-servers) |
 
 <br />
 
-## Server Implementations
+## Table of Contents
 
+- 🎖️ - [Official Integrations](#official-integrations)
 - 📂 - [File Systems](#file-systems)
-- 📦 - [Sandbox & Virtualization](#virtualization)
-- 🔄 - [Version Control](#version-control)
-- ☁️ - [Cloud Storage](#cloud-storage)
 - 🗄️ - [Databases](#databases)
 - 💬 - [Communication](#communication)
-- 📈 - [Monitoring](#monitoring)
-- 🔍 - [Search & Web](#search-web)
-- 🗺️ - [Location Services](#location-services)
-- 🎯 - [Marketing](#marketing)
-- 📝 - [Note Taking](#note-taking)
-- ⚡ - [Cloud Platforms](#cloud-platforms)
-- ⚙️ - [Workflow Automation](#workflow-automation)
-- 🤖 - [System Automation](#system-automation)
-- 📱 - [Social Media](#social-media)
-- 🎮 - [Gaming](#gaming)
+- 🤖 - [AI Services](#ai-services)
+- ☁️ - [Cloud Platforms](#cloud-platforms)
+- 🔄 - [DevOps & CI/CD](#devops--cicd)
+- 🌐 - [Web & Browser Automation](#web--browser-automation)
+- 📊 - [Data & Analytics](#data--analytics)
+- 🧩 - [API Integration](#api-integration)
+- 🔐 - [Security](#security)
+- 🗺️ - [Location & Maps](#location--maps)
+- 🌿 - [Version Control](#version-control)
+- 📋 - [Project Management](#project-management)
+- 📧 - [Email](#email)
+- 🎨 - [Design & Media](#design--media)
+- 🔬 - [Research & Science](#research--science)
 - 💹 - [Finance](#finance)
-- 🧬 - [Research & Data](#research-data)
-- 🤝 - [AI Services](#ai-services)
-- 💻 - [Development Tools](#development-tools)
-- 📊 - [Data Visualization](#data-visualization)
-- 🆔 - [Identity](#identity)
-- 🔗 - [Aggregators](#aggregators)
-- 💬 - [Language & Translation](#language)
-- 🔒 - [Security](#security)
-- 🔌 - [IoT](#iot)
-- 🧑‍🎨 - [Art & Literature](#art-literature)
+- 🧠 - [Knowledge & Memory](#knowledge--memory)
+- 🔧 - [Developer Tools](#developer-tools)
+- 🎮 - [Gaming](#gaming)
+- 🏥 - [Healthcare](#healthcare)
+- 📱 - [Mobile](#mobile)
+- 🌐 - [Language & Translation](#language--translation)
+- 🎵 - [Entertainment](#entertainment)
 - 🛒 - [E-Commerce](#e-commerce)
-- 📦 - [Data Platforms](#data-platforms)
-- 🤖 - [Robotics & Physical AI](#robotics)
-
-<sup><details>
-
-<summary>Legend</summary>
-
-- <sup>⭐</sup> Official protocol implementation
-- <sup>1</sup> First implementation (when multiple implementations exist)
-- <sup>2</sup> Second implementation
-- <sup>3</sup> Third implementation
-- <sup>n</sup> Subsequent implementations
-</details></sup>
+- 🔌 - [IoT & Hardware](#iot--hardware)
+- 📰 - [News & Media](#news--media)
+- 🧪 - [Testing & QA](#testing--qa)
+- 🏢 - [Enterprise Systems](#enterprise-systems)
+- 🌍 - [Environment & Sustainability](#environment--sustainability)
+- 🤝 - [Customer Support](#customer-support)
+- 🎓 - [Education](#education)
+- 📦 - [Package Management](#package-management)
+- 🖥️ - [Operating System Interaction](#operating-system-interaction)
+- 🚗 - [Transportation](#transportation)
+- 🧰 - [Miscellaneous](#miscellaneous)
 
 <br />
 
-## Tools & Utilities
+## 🎖️ <a name="official-integrations"></a>Official Integrations
 
-See [Helpful Tools & Utilities](#helpful-tools-&-utilities) section for tools to help manage, configure, and work with MCP servers.
+Official MCP server integrations provided directly by companies and organizations.
+
+- <img src="https://axiom.co/favicon.ico" height="14"/> [Axiom](https://github.com/axiomhq/mcp-server-axiom) - Query and analyze your Axiom logs, traces, and all other event data in natural language
+- <img src="https://browserbase.com/favicon.ico" height="14"/> [Browserbase](https://github.com/browserbase/mcp-server-browserbase) - Automate browser interactions in the cloud
+- <img src="https://cdn.brandfetch.io/cloudflare.com/w/512/h/512" height="14"/> [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Deploy and manage resources on the Cloudflare developer platform
+- <img src="https://e2b.dev/favicon.ico" height="14"/> [E2B](https://github.com/e2b-dev/mcp-server) - Execute code in secure cloud sandboxes
+- <img src="https://exa.ai/images/favicon-32x32.png" height="14"/> [Exa](https://github.com/exa-labs/exa-mcp-server) - AI-native web search and scraping
+- <img src="https://avatars.githubusercontent.com/u/54536011" height="14"/> [Grafana](https://github.com/grafana/mcp-grafana) - Search dashboards, investigate incidents and query datasources in your Grafana instance
+- <img src="https://framerusercontent.com/images/GtdBJXSIEWGl8fY5WiNMDSa3Mk.png" height="14"/> [Graphlit](https://github.com/graphlit/graphlit-mcp-server) - Ingest anything from Slack to Gmail to podcast feeds, in addition to web crawling, and PDF, Word and Markdown file ingestion
+- <img src="https://jetbrains.com/favicon.ico" height="14"/> [JetBrains](https://github.com/JetBrains/mcp-jetbrains) - Work on your code in JetBrains IDEs
+- <img src="https://kagi.com/favicon.ico" height="14"/> [Kagi](https://github.com/kagisearch/kagimcp) - Search the web using Kagi's search API
+- <img src="https://www.make.com/favicon.ico" height="14"/> [Make](https://github.com/integromat/make-mcp-server) - Turn your Make scenarios into callable tools for AI assistants
+- <img src="https://www.neon.tech/favicon/favicon-32x32.png" height="14"/> [Neon](https://github.com/neondatabase/mcp-server-neon) - Create and manage Neon Postgres projects, branches, and databases
+- <img src="https://avatars.githubusercontent.com/u/3431088" height="14"/> [Oxylabs](https://github.com/oxylabs/oxylabs-mcp) - Scrape websites with Oxylabs Web API, supporting dynamic content rendering with JavaScript
+- <img src="https://avatars.githubusercontent.com/u/1798433" height="14"/> [PayPal](https://github.com/paypal/agent-toolkit) - Interact with PayPal APIs for payments, subscriptions, invoices and more.
+- <img src="https://avatars.githubusercontent.com/u/49888249" height="14"/> [Perplexity](https://github.com/ppl-ai/modelcontextprotocol) - Perplexity provides an API that allows interaction with their AI model
+- <img src="https://raw.githubusercontent.com/PLangHQ/plang/refs/heads/main/Documentation/apps/plang_logo_128x128.png" height="14"/> [Plang](https://github.com/PLangHQ/plang/tree/main/mcp) - MCP Server for [Plang](https://plang.is) programming language, to create, build and run .goal files
+- <img src="https://cdn.prod.website-files.com/6750d7b7e819dfd03756a75b/6750d7b7e819dfd03756a7c1_Favicon%20256.png" height="14"/> [Raygun](https://github.com/MindscapeHQ/mcp-server-raygun) - Interact with your crash reporting and real user monitoring data on your Raygun account
+- <img src="https://seeklogo.com/images/S/sentry-logo-36867007B0-seeklogo.com.png" height="14"/> [Sentry](https://github.com/getsentry/sentry-mcp) - Connect AI tools to Sentry to look up error data, create issues, and more
+- <img src="https://tavily.com/favicon.ico" height="14"/> [Tavily](https://github.com/RamXX/mcp-tavily) - An MCP server for Tavily's search & news API
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tripadvisor_Logo.svg/250px-Tripadvisor_Logo.svg.png" height="14"/> [TripAdvisor](https://github.com/piddlingtuna/tripadvisor-mcp-server) - Search TripAdvisor for travel locations and more
+- <img src="https://framerusercontent.com/images/yWOsUNiQe8JKTkXD2nMBvjkLs.png" height="14"/> [Turbopuffer](https://github.com/turbopuffer/turbopuffer-mcp) - Native access to turbopuffer for lightning-fast vector search and serverless inference
+- <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14"/> [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime
+- <img src="https://avatars.githubusercontent.com/u/62214163" height="14"/> [Xero](https://github.com/XeroAPI/xero-mcp-server) - Interact with your Xero account data using natural language
 
 <br />
 
 ## 📂 <a name="file-systems"></a>File Systems
 
-> Provides direct access to local file systems with configurable permissions. Enables AI models to read, write, and manage files within specified directories.
-- <img src="https://cdn.simpleicons.org/files/4CAF50" height="14"/> [Backup](https://github.com/hexitex/MCP-Backup-Server) - Provides file and folder backup and restoration capabilities for AI agents and code editing tools
-- <img src="https://cdn.simpleicons.org/files/9AD1ED" height="14"/> [FileStash](https://github.com/mickael-kerjean/filestash/tree/master/server/plugin/plg_handler_mcp) - Remote Storage Access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, FTPS, gcloud, azure blob, sharepoint, etc... 
-- <img src="https://cdn.simpleicons.org/files/2196F3" height="14"/> [FileSystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)<sup><sup>1</sup></sup> - Direct local file system access
-- <img src="https://cdn.simpleicons.org/files/4A90E2" height="14"/> [FileSystem](https://github.com/mark3labs/mcp-filesystem-server)<sup><sup>2</sup></sup> - Golang implementation for local file system access
-- <img src="https://cdn.simpleicons.org/files/4CAF50" height="14"/> [Everything Search](https://github.com/mamertofabian/mcp-everything-search) - Lightning-fast Windows file search powered by Everything SDK
-- <img src="https://cdn.simpleicons.org/files/4CAF50" height="14"/> [fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp) - Advanced filesystem operations with large file handling capabilities and Claude-optimized features. Provides fast file reading/writing, sequential reading for large files, directory operations, file search, and streaming writes with backup & recovery.
-- <img src="https://cdn.simpleicons.org/files/4CAF50" height="14"/> [llm-context](https://github.com/cyberchitta/llm-context.py) - Share code context with LLMs via Model Context Protocol or clipboard
+Provides direct access to local and remote file systems with configurable permissions for AI models.
 
-<br />
-
-## 📦 <a name="virtualization"></a>Sandbox & Virtualization
-
-> Secure sandbox environments for code execution and testing. Enables safe execution of code snippets and development workflows.
-
-- <img src="https://docs.microsandbox.dev/favicon.ico" height="14"/> [Microsandbox](https://github.com/microsandbox/microsandbox)<sup><sup>⭐</sup></sup> - Self-hosted platform for secure execution of AI code. Great for Code Interpreter, Data Analysis, Browser Use.
-- <img src="https://e2b.dev/favicon.ico" height="14"/> [E2B](https://github.com/e2b-dev/mcp-server)<sup><sup>⭐</sup></sup> - Secure cloud development environments for AI agents. Enables safe code execution and testing in isolated containers.
-- <img src="https://cdn.simpleicons.org/docker/0db7ed" height="14"/> [Docker](https://github.com/QuantGeekDev/docker-mcp) - An MCP server for Docker operations, enabling seamless container and compose stack management.
-
-<br />
-
-## 🔄 <a name="version-control"></a>Version Control
-
-> Interact with Git repositories and version control platforms. Enables repository management, code analysis, pull request handling, issue tracking, and other version control operations through standardized APIs.
-
-- <img src="https://cdn.simpleicons.org/github/8A8A8A" height="14"/> [GitHub](https://github.com/github/github-mcp-server)<sup><sup>1</sup></sup> - GitHub API integration for repository management, PRs, issues, and more
-- <img src="https://cdn.simpleicons.org/github/8A8A8A" height="14"/> [GitHub](https://github.com/kurdin/github-repos-manager-mcp)<sup><sup>2</sup></sup> - Token-based GitHub automation management. No Docker for optimal performance, Flexible configuration for fine-grained control, 80+ tools with direct API integration.
-- <img src="https://cdn.simpleicons.org/gitlab/FC6D26" height="14"/> [GitLab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) - GitLab platform integration for project management and CI/CD operations
-- <img src="https://cdn.simpleicons.org/git/F05032" height="14"/> [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Direct Git repository operations including reading, searching, and analyzing local repositories
-- <img src="https://cdn.simpleicons.org/phabricator/5865F2" height="14"/> [Phabricator](https://github.com/baba786/phabricator-mcp-server) - Phabricator API integration for repository and project management
-- <img src="https://cdn.simpleicons.org/git/F05032" height="14"/> [Gitingest-MCP](https://github.com/puravparab/Gitingest-MCP) - Gitingest integration providing prompt friendly summmaries of Github repos
-
-
-<br />
-
-## ☁ <a name="cloud-storage"></a>Cloud Storage
-
-> Access and manage files stored in cloud storage platforms. Enables searching, reading, and organizing cloud-stored documents and data.
-
-- <img src="https://cdn.simpleicons.org/googledrive/4285F4" height="14"/> [Google Drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) - Google Drive integration for file access, search, and management
-- <img src="https://www.box.com/themes/custom/box/favicons/favicon.ico" height="14"/> [Box](https://developer.box.com/guides/box-mcp/)<sup><sup>⭐</sup></sup> - Box MCP Server allows third party AI agents from platforms like Copilot Studio, Cursor, Claude for Desktop to access Box content seamlessly. It extends the agent's capabilities by allowing it to perform actions related to content stored in Box.
-- <img src="https://framerusercontent.com/images/ijlYG00LOcMD6zR1XLMxHbAwZkM.png" height="14" /> [VideoDB](https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol)<sup><sup>⭐</sup></sup> - A serverless video database to easily store, index, search, and stream videos. VideoDB uses AI to automatically tag scenes, generate accurate transcriptions, and quickly retrieve video moments with simple queries.
-- <img src="https://www.microsoft.com/favicon.ico" height="14"/> [Microsoft 365](https://github.com/softeria/ms-365-mcp-server) - MCP server that connects to the whole Microsoft 365 suite (Microsoft Office, Outlook, etc.) using Graph API (including mail, files, Excel, calendar)
+- [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Secure file operations with configurable access controls
+- [Files](https://github.com/mark3labs/mcp-filesystem-server) - Secure file operations with configurable access controls written in Go
+- [Box](https://github.com/hmk/box-mcp-server) - Connect to your Box account to list, read and search for files
+- [Google Drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) - File access and search for Google Drive
+- [Obsidian Markdown Files](https://github.com/calclavia/mcp-obsidian) - Read and search through Markdown notes in Obsidian vaults
+- [SharePoint](https://github.com/softeria-eu/mcp-sharepoint) - Access to SharePoint content, browsing files and reading documents
+- [ReadPDF](https://github.com/sylphlab/pdf-reader-mcp) - A PDF reader server that allows Claude to read and extract text from PDF files
+- [Folder Structure Context](https://github.com/guillermom11/mcp-folder-structure) - Provides folder structure context to AI models
+- [OneDrive](https://github.com/aplevin/onedrive-mcp-server) - Read and search files within OneDrive
 
 <br />
 
 ## 🗄️ <a name="databases"></a>Databases
 
-> Secure database access with schema inspection capabilities. Enables querying and analyzing data while maintaining read-only safety by default.
+Database integration tools for reading, writing, and managing data across various database types.
 
-- <img src="https://cdn.simpleicons.org/postgresql/5865F2" height="14"/> [PostgreSQL](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - PostgreSQL database integration with schema inspection and query capabilities
-- <img src="https://cdn.simpleicons.org/sqlite/0F80CC" height="14"/> [SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) - SQLite database operations with built-in analysis features
-- <img src="https://cdn.simpleicons.org/duckdb/FDC000" height="14"/> [DuckDB](https://github.com/ktanaka101/mcp-server-duckdb) - DuckDB database integration with schema inspection and query capabilities
-- <img src="https://cdn.simpleicons.org/libreoffice/18A303" height="14"/> [Excel](https://github.com/haris-musa/excel-mcp-server) - Excel workbook manipulation including data reading/writing, worksheet management, formatting, charts, and pivot tables
-- <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" height="14"/> [BigQuery](https://github.com/LucasHild/mcp-server-bigquery)<sup><sup>1</sup></sup> - BigQuery database integration with schema inspection and query capabilities
-- <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" height="14"/> [BigQuery](https://github.com/ergut/mcp-bigquery-server)<sup><sup>2</sup></sup> - A BigQuery MCP server for read-only SQL queries and schema exploration (available on npm)
-- <img src="https://neon.tech/favicon.ico" height="14"/> [Neon](https://github.com/neondatabase/mcp-server-neon)<sup><sup>⭐</sup></sup> - Neon MCP Server. Allows natural language interactions with Neon for database management.
-- <img src="https://qdrant.tech/img/brand-resources-logos/logomark.svg" height="14"/> [Qdrant](https://github.com/qdrant/mcp-server-qdrant/)<sup><sup>⭐</sup></sup> - A Qdrant MCP server for keeping and retrieving memories in the Qdrant vector search engine.
-- <img src="https://cdn.simpleicons.org/mongodb/47A248" height="14"/> [MongoDB](https://github.com/kiliczsh/mcp-mongo-server) - A Model Context Protocol Server for querying and analyzing MongoDB collections.
-- <img src="https://cdn.simpleicons.org/mongodb/47A248" height="14"/> [MongoDB Lens](https://github.com/furey/mongodb-lens) - Full featured MCP Server for MongoDB databases.
-- <img src="https://cdn.simpleicons.org/mysql" height="14"/> [MySQL](https://github.com/designcomputer/mysql_mcp_server) - MySQL database integration with configurable access controls and schema inspection
-- <img src="https://cdn.simpleicons.org/airtable" height="14"/> [Airtable](https://github.com/domdomegg/airtable-mcp-server) - Read and write access to Airtable databases, with schema inspection.
-- <img src="https://cdn.simpleicons.org/snowflake" height="14"/> [Snowflake](https://github.com/isaacwasserman/mcp-snowflake-server) - Snowflake database integration with read/write capabilities and insight tracking.
-- <img src="https://jiejue.obs.ap-southeast-1.myhuaweicloud.com/20250209205317622.webp" height="14"/> [DBUtils](https://github.com/donghao1393/mcp-dbutils) - A unified database access service for MCP that seamlessly integrates PostgreSQL and SQLite with a clean abstraction layer.
-- <img src="https://www.pingcap.com/favicon.ico" height="14"/> [TiDB](https://github.com/c4pt0r/mcp-server-tidb) - MCP server implementation for TiDB (serverless) database.
-- <img src="https://cdn.nocodb.com/marketing-site/20250120104552/images/favicon.png" height="14"/> [NocoDB](https://github.com/edwinbernadus/nocodb-mcp-server) - Read and write access to NocoDB database.
-- <img src="https://www.couchbase.com/wp-content/uploads/2023/10/couchbase-favicon.svg" height="14"/> [Couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase)<sup><sup>⭐</sup></sup> - MCP server to interact with the data stored in Couchbase clusters including natural language querying. 
-- <img src="https://avatars.githubusercontent.com/u/1529926?s=48&v=4" height="14"/> [Redis](https://github.com/redis/mcp-redis)<sup><sup>⭐</sup></sup> - A natural language interface designed for agentic applications to efficiently manage and search data in Redis.
-- <img src="https://framerusercontent.com/images/ijlYG00LOcMD6zR1XLMxHbAwZkM.png" height="14" /> [VideoDB Director](https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol)<sup><sup>⭐</sup></sup> - Create AI-powered video workflows including automatic editing, content moderation, voice cloning, highlight generation, and searchable video moments—all accessible via simple APIs and intuitive chat-based interfaces.
+- [Chroma](https://github.com/chroma-core/chroma-mcp) - Embeddings, vector search, document storage, and full-text search with the open-source AI application database
+- [ClickHouse](https://github.com/ClickHouse/mcp-clickhouse) - Connect to your ClickHouse database and run queries.
+- [CockroachDB](https://github.com/truewebber/mcp-cockroachdb) - MCP server for CockroachDB with read, write, and schema discovery.
+- [DuckDB](https://github.com/ktanaka101/mcp-server-duckdb) - DuckDB database integration with schema inspection and query capabilities
+- [Elasticsearch](https://github.com/cr7258/elasticsearch-mcp-server) - Elasticsearch integration for search and analytics
+- [EXASol](https://github.com/nicktindall/mcp-server-exasol) - Exasol database integration with schema inspection and query capabilities
+- [Firebase Firestore](https://github.com/gannonh/firebase-mcp) - Firebase services including Auth, Firestore and Storage.
+- [Jet MCP](https://github.com/yoda-digital/mcp-gitlab-server) - GitLab integration for MCP
+- [Lancedb](https://github.com/Kalos-mcp/lancedb) - LanceDB database integration
+- [libSQL](https://github.com/elitan/mcp-server-turso) - Connect and query libSQL databases, compatible with Turso
+- [Microsoft SQL Server](https://github.com/JubinSaniei/mcp-mssql-server) - Microsoft SQL Server database integration
+- [MongoDB](https://github.com/kiliczsh/mcp-mongo-server) - A Model Context Protocol Server for MongoDB
+- [MySQL](https://github.com/benborla/mcp-server-mysql) - MySQL database integration in NodeJS with configurable access controls
+- [MySQL](https://github.com/designcomputer/mysql_mcp_server) - MySQL database integration in Python with configurable access controls
+- [Neo4j](https://github.com/da-okazaki/mcp-neo4j-server) - A community-built MCP server for Neo4j Graph Databases
+- [Nile Database](https://github.com/niledatabase/nile-mcp-server) - MCP server for Nile's Postgres platform for multi-tenant apps
+- [OpenSearch](https://github.com/riccardo-larosa/mcp-opensearch) - OpenSearch database integration
+- [Oracle DB](https://github.com/pawanmudgal/oracle-db-mcp-server) - Oracle Database integration with schema inspection and query capabilities
+- [PGlite](https://github.com/yigitkonur/pglite-mcp-server) - MCP server for PGlite, a WebAssembly-based PostgreSQL
+- [PostgreSQL](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - Read-only database access with schema inspection capabilities
+- [QuestDB](https://github.com/questdb/questdb-mcp-server) - MCP server for QuestDB, a high-performance time-series database.
+- [Redis](https://github.com/modelcontextprotocol/servers/tree/main/src/redis) - Interact with Redis key-value stores
+- [Riak](https://github.com/jonathandturner/mcp-riak-server) - Riak database integration
+- [Snowflake](https://github.com/datawiz168/mcp-snowflake-service) - Interact with Snowflake databases
+- [SQLite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) - Database interaction and business intelligence capabilities
+- [SQLite](https://github.com/FreePeak/db-mcp-server) - A high-performance multi-database MCP server supporting MySQL & PostgreSQL with built-in tools for query execution, transaction management, schema exploration, query building, and performance analysis
+- [Supabase](https://github.com/supabase-community/supabase-mcp) - Interact with Supabase databases
+- [TiDB](https://github.com/pingcap/tidb-mcp-server) - Connect to TiDB Cloud Serverless clusters
 
 <br />
 
 ## 💬 <a name="communication"></a>Communication
 
-> Integration with communication platforms for message management and channel operations. Enables AI models to interact with team communication tools.
+Tools for integrating with messaging, email, and collaboration platforms.
 
-- <img src="https://cdn.simpleicons.org/slack/E01E5A" height="14"/> [Slack](https://github.com/korotovsky/slack-mcp-server) - The most powerful MCP Slack Server with Stdio and SSE transports, Proxy support and no permission requirements on Slack Workspace.
-- <img src="https://www.line.me/favicon-32x32.png" height="14" /> [LINE Official Account](https://github.com/line/line-bot-mcp-server)<sup><sup>⭐</sup></sup> - Integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.
-- <img src="https://cdn.simpleicons.org/linear/5E6AD2" height="14"/> [Linear](https://github.com/jerhadf/linear-mcp-server) - Linear MCP Server. Provides integration with Linear's issue tracking system through MCP.
-- <img src="https://cdn.simpleicons.org/atlassian/0052CC" height="14"/> [Atlassian](https://github.com/sooperset/mcp-atlassian) - Comprehensive integration with Atlassian suite including Confluence for documentation management and Jira for issue tracking.
-- <img src="https://carbonvoice.app/favicon.ico" height="14"/> [Carbon Voice](https://github.com/PhononX/cv-mcp-server)<sup><sup>⭐</sup></sup> - MCP Server that connects AI Agents to [Carbon Voice](https://getcarbon.app). Create, manage, and interact with voice messages, conversations, direct messages, folders, voice memos, AI actions and more in [Carbon Voice](https://getcarbon.app).
-- <img src="https://m2tg1pnwn0.ufs.sh/f/GMqNN8nd9I8l9tUbmif1CnFX8Baqr7mHeicYu0AULDyNVWJE" height="14"/> [ntfy](https://github.com/gitmotion/ntfy-me-mcp) - An ntfy MCP server for sending/fetching ntfy notifications to your self-hosted ntfy.sh server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)
-
-<br />
-
-## 📈 <a name="monitoring"></a>Monitoring
-
-> Access and analyze application monitoring data. Enables AI models to review error reports and performance metrics.
-
-- <img src="https://metoro.io/static/images/logos/Metoro.svg" height="14"/> [Metoro](https://github.com/metoro-io/metoro-mcp-server) - Query and interact with kubernetes environments monitored by Metoro
-- <img src="https://raygun.com/favicon.ico" height="14"/> [Raygun](https://github.com/MindscapeHQ/mcp-server-raygun) - Raygun API V3 integration for crash reporting and real user monitoring
-- <img src="https://cdn.simpleicons.org/sentry/546E7A" height="14"/> [Sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) - Sentry.io integration for error tracking and performance monitoring
-- <img src="https://cdn.simpleicons.org/letsencrypt/003A70" height="14"/> [sslmon](https://github.com/firesh/sslmon-mcp) - Domain/HTTPS/SSL domain registration information and SSL certificate monitoring capabilities. Query domain registration and expiration information, and SSL certificate information and validity status for any domain.
-- <img src="https://aiops.drdroid.io/favicon.ico" height="14"/> [Signoz](https://github.com/DrDroidLab/signoz-mcp-server) - Comprehensive integration with [Signoz APIs](https://signoz.io/docs/userguide/apis/) and [documentation](https://signoz.io/docs/) for monitoring, observability, and debugging tasks related to your Signoz instances.
-- <img src="https://avatars.githubusercontent.com/u/174736222?s=200&v=4" height="14"/> [VictoriaMetrics](https://github.com/VictoriaMetrics-Community/mcp-victoriametrics) - Comprehensive integration with [VictoriaMetrics APIs](https://docs.victoriametrics.com/victoriametrics/url-examples/) and [documentation](https://docs.victoriametrics.com/) for monitoring, observability, and debugging tasks related to your VictoriaMetrics instances.
+- <img src="https://www.atlassian.com/favicon.ico" height="14"/> [Confluence](https://github.com/sooperset/mcp-atlassian) - Interact with Atlassian Confluence for documentation management
+- <img src="https://discord.com/assets/favicon.ico" height="14"/> [Discord](https://github.com/v-3/discordmcp) - Connect to Discord servers to read channel histories and send messages
+- <img src="https://www.gitter.im/favicon.ico" height="14"/> [Gitter](https://github.com/the-alex-franklin/gitter-mcp) - MCP server for Gitter, to create and view rooms and messages
+- <img src="https://www.google.com/favicon.ico" height="14"/> [Google Chat](https://github.com/kapilkumar2001/google-chat-mcp-server) - Access Google Chat messages
+- <img src="https://www.intercom.com/favicon.ico" height="14"/> [Intercom](https://github.com/raoulbia-ai/mcp-server-for-intercom) - Retrieve and analyze Intercom support tickets, including full conversation history
+- <img src="https://www.jira.com/favicon.ico" height="14"/> [Jira](https://github.com/sooperset/mcp-atlassian) - Interact with Atlassian Jira for project management
+- <img src="https://www.line.me/favicon.ico" height="14"/> [LINE](https://github.com/amornpan/py-mcp-line) - Integration for LINE Messaging API to read and analyze LINE conversations
+- <img src="https://www.microsoft.com/favicon.ico" height="14"/> [Microsoft Teams](https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/mcp-teams) - Microsoft Teams integration for sending messages and managing team communications
+- <img src="https://www.notionhq.com/favicon.ico" height="14"/> [Notion](https://github.com/v-3/notion-server) - Interact with Notion for documentation and knowledge management
+- <img src="https://slack.com/favicon.ico" height="14"/> [Slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - Channel management and messaging capabilities
+- <img src="https://telegram.org/favicon.ico" height="14"/> [Telegram](https://github.com/kfastov/telegram-mcp-server) - Integrate with Telegram to send and receive messages
+- <img src="https://twist.com/favicon.ico" height="14"/> [Twist](https://github.com/BernardMcWeeney/twist-mcp-server) - MCP server for Twist, the async communication tool for teams.
+- <img src="https://twitter.com/favicon.ico" height="14"/> [Twitter/X](https://github.com/EnesCinr/twitter-mcp) - Interact with Twitter API. Post tweets and search for tweets by query.
+- <img src="https://twitter.com/favicon.ico" height="14"/> [Twitter/X](https://github.com/vidhupv/x-mcp) - Create, manage and publish X/Twitter posts
+- <img src="https://www.whatsapp.com/favicon.ico" height="14"/> [WhatsApp](https://github.com/lharries/whatsapp-mcp) - Interact with your personal WhatsApp messages, search and send messages to individuals and groups
 
 <br />
 
-## 🔍 <a name="search-web"></a>Search & Web
+## 🤖 <a name="ai-services"></a>AI Services
 
-> Web content access and automation capabilities. Enables searching, scraping, and processing web content in AI-friendly formats.
+Integrations with AI models, machine learning services, and AI-powered tools.
 
-- <img src="https://cdn.simpleicons.org/puppeteer/00D8A2" height="14"/> [Puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) - Browser automation for web scraping and interaction
-- <img src="https://cdn.simpleicons.org/brave/FB542B" height="14"/> [Brave Search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web search capabilities using Brave's Search API
-- <img src="https://github.com/user-attachments/assets/5d9346e8-7821-4202-80cd-25e0678d3400" height="14"/> [Bright Data](https://github.com/luminati-io/brightdata-mcp) - Discover, extract, and interact with the web - one interface powering automated access across the public internet.
-- <img src="https://avatars.githubusercontent.com/u/204530939?s=200&v=4" height="14"/> [Dumpling AI](https://github.com/Dumpling-AI/mcp-server-dumplingai) - Access data, web scraping, and document conversion APIs by [Dumpling AI](https://www.dumplingai.com/)
-- <img src="https://cdn.simpleicons.org/curl/00ADD8" height="14"/> [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Efficient web content fetching and processing for AI consumption
-- <img src="https://cdn.simpleicons.org/kagi/4173FF" height="14"/> [Kagi Search](https://github.com/ac3xx/mcp-servers-kagi) - TypeScript-based MCP server that integrates the Kagi Search API
-- <img src="https://www.tryleap.ai/assets/integrations/exa.svg" height="14"/> [Exa Search](https://github.com/exa-labs/exa-mcp-server)<sup><sup>⭐</sup></sup> - Integration with Exa AI Search API for real-time web information retrieval
-- <img src="https://cdn.simpleicons.org/newyorktimes/E34234" height="14"/> [NYTimes](https://github.com/angheljf/nyt) - Search articles using the NYTimes API
-- <img src="https://cdn.simpleicons.org/googlenews/4285F4" height="14"/> [Google News](https://github.com/ChanMeng666/server-google-news) - Google News search with automatic categorization, multi-language support, and comprehensive search options
-- <img src="https://avatars.githubusercontent.com/u/175926811?v=4" height="14"/> [Scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server) - The Scrapeless Model Context Protocol service acts as an MCP server connector to the Google SERP API, enabling web search within the MCP ecosystem without leaving it. 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/800px-Vector_search_icon.svg.png" height="14"/> [Search1API](https://github.com/fatwang2/search1api-mcp) - Search via search1api (requires paid API key)
-- <img src="https://github.com/user-attachments/assets/3c1cb503-11cc-4172-ac4e-73497b5eb3b8" height = "14"> [RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP) - A powerful MCP server providing a suite of tools for web search, content discovery, and automated research workflows.
-- <img src="https://tavily.com/favicon.ico" height="14"/> [Tavily](https://github.com/Tomatio13/mcp-server-tavily) - Tavily AI search API integration
-- <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="14"/> [ArXiv](https://github.com/blazickjp/arxiv-mcp-server) - Search ArXiv research papers
-- <img src="https://github.com/user-attachments/assets/6f9c9a70-01c8-4255-abbe-66faf146970e" height="14"> [PapersWithCode](https://github.com/hbg/mcp-paperswithcode) - Search research papers, conferences, and codebases through PapersWithCode API
-- <img src="https://playwright.dev/img/playwright-logo.svg" height="14"/> [Playwright](https://github.com/executeautomation/mcp-playwright) - A Model Context Protocol server that provides browser automation capabilities using Playwright.
-- <img src="https://cdn.simpleicons.org/searxng" height="14"/> [Websearch](https://github.com/mnhlt/WebSearch-MCP) - Self-hosted Websearch service.
-- <img src="https://cdn.simpleicons.org/firefoxbrowser" height="14"/> [Browser Control](https://github.com/eyalzh/browser-control-mcp) - An MCP server paired with a browser extension allowing local browser control. 
-- <img src="https://blog.apify.com/content/images/2025/02/Apify_logo.png" height="14"/> [Apify Actors](https://github.com/apify/actors-mcp-server) - Use 4,000+ pre-built cloud tools, known as Actors, to extract data from websites, e-commerce, social media, search engines, maps, and more.
-- <img src="https://blog.apify.com/content/images/2025/02/Apify_logo.png" height="14"/> [RAG Web Browser](https://github.com/apify/mcp-server-rag-web-browser) - An MCP server for Apify's open-source RAG Web Browser Actor to perform web searches, scrape URLs, and return content in Markdown.
-- <img src="https://framerusercontent.com/images/0Bw7GwbNXUBxOAp9pyM0VPOlphg.png" height="14" /> [Skyvern](https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp) - MCP to let Claude or your own LLM control your browser
-- <img src="https://searx.space/favicon.png" height="14" /> [Ihor-Sokoliuk/MCP-SearXNG](https://github.com/ihor-sokoliuk/mcp-searxng) - A Model Context Protocol Server for [SearXNG](https://docs.searxng.org)
-- <img src="https://pragmar.com/media/static/images/mcp-server-webcrawl/favicon.png" height="14" /> [mcp-server-webcrawl](https://github.com/pragmar/mcp-server-webcrawl) - Advanced search and retrieval for web crawler data. Supports WARC, wget, Katana, SiteOne, and InterroBot crawlers.
+- <img src="https://www.anthropic.com/favicon.ico" height="14"/> [Anthropic](https://github.com/anthropics/anthropic-mcp-server) - Access Anthropic's AI models for content analysis and generation
+- <img src="https://cohere.com/favicon.ico" height="14"/> [Cohere](https://github.com/cohere-ai/cohere-mcp) - Connect to Cohere's API for generating, classifying, and summarizing text
+- <img src="https://fal.ai/favicon.ico" height="14"/> [fal.ai](https://github.com/fal-ai/fal-mcp) - Run AI models on fal.ai's serverless GPU infrastructure
+- <img src="https://huggingface.co/favicon.ico" height="14"/> [HuggingFace](https://github.com/evalstate/mcp-hfspace) - Use HuggingFace spaces and models
+- <img src="https://www.langfuse.com/favicon.ico" height="14"/> [Langfuse Prompt Management](https://github.com/langfuse/mcp-server-langfuse) - Open-source tool for collaborative editing, versioning, and accessing prompts via the Langfuse Prompt Management SDK.
+- <img src="https://www.langfuse.com/favicon.ico" height="14"/> [Langfuse Tracing](https://github.com/langfuse/mcp-server-langfuse) - Interact with LLM application traces in Langfuse for understanding & improving AI app behavior.
+- <img src="https://lmstudio.ai/favicon.ico" height="14"/> [LM Studio](https://github.com/lmstudio-ai/mcp-server-lmstudio) - Control LM Studio from Claude
+- <img src="https://mistral.ai/favicon.ico" height="14"/> [Mistral](https://github.com/bkvarda/mcp-mistral) - Connect to Mistral AI's language models
+- <img src="https://openai.com/favicon.ico" height="14"/> [OpenAI](https://github.com/mzxrai/mcp-openai) - Chat with OpenAI's smartest models
+- <img src="https://openai.com/favicon.ico" height="14"/> [OpenAI](https://github.com/wong2/mcp-openai-server) - A simple OpenAI API MCP server
+- <img src="https://replicate.com/favicon.ico" height="14"/> [Replicate](https://github.com/deepfates/mcp-replicate) - Search and run models on Replicate platform
+- <img src="https://www.stability.ai/favicon.ico" height="14"/> [Stability AI](https://github.com/tamasbelinszky/mcp-stability-ai) - Generate images using the Stability AI API
+- <img src="https://vectorize.io/favicon.ico" height="14"/> [Vectorize](https://github.com/vectorize-io/vectorize-mcp-server/) - Advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking.
+- <img src="https://www.cerebras.ai/favicon.ico" height="14"/> [Cerebras](https://github.com/cerebras/cerebras-mcp) - Connect to Cerebras AI for fast LLM inference
 
 <br />
 
-## 🗺️ <a name="location-services"></a>Location Services
+## ☁️ <a name="cloud-platforms"></a>Cloud Platforms
 
-> Geographic and location-based services integration. Enables access to mapping data, directions, and place information.
+Access and management of cloud infrastructure, services, and resources.
 
-- <img src="https://campertunity.com/assets/icon/favicon.ico" height="14"/> [Campertunity](https://github.com/campertunity/mcp-server) - Search campgrounds around the world on campertunity, check availability, and provide booking links
-- <img src="https://cdn.simpleicons.org/googlemaps/4285F4" height="14"/> [Google Maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) - Google Maps integration for location services, routing, and place details
-- <img src="https://static.iplocate.io/custom/logo-square-rounded.png" height="14"/> [IPLocate](https://github.com/iplocate/mcp-server-iplocate) - Look up IP address geolocation, network information, detect proxies and VPNs, and find abuse contact details using IPLocate.io
-- <img src="https://www.ip2location.io/favicon.ico" height="14"/> [IP2Location.io](https://github.com/ip2location/mcp-ip2location-io) - IP2Location.io API integration to retrieve the geolocation information for an IP address.
-- <img src="https://www.qgis.org/styleguide/visual/qgis-logo.svg" height="14"/> [QGIS](https://github.com/jjsantos01/qgis_mcp) - connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more.
-
-
-<br />
-
-## 🎯 <a name="marketing"></a>Marketing
-
-> Tools that help marketers write better content and run better campaigns.
-
-- <img src="https://cdn.simpleicons.org/analytics/4285F4" height="14"/> [Agent Mindshare](https://agentmindshare.com) - Track and monitor AI agent mindshare across platforms - measure brand visibility in AI conversations.
-- <img src="https://openstrategypartners.com/fileadmin/Bilder/logo/OSP_logo_colors_green1.png" height="14"/> [Open Strategy Partners Marketing Tools](https://github.com/open-strategy-partners/osp_marketing_tools)<sup><sup>⭐</sup></sup> - a standardized editing code system, writing guidelines, web metadata generator, and product communication framework.
-- <img src="https://cdn.simpleicons.org/fathom/9187FF" height="14"/> [Fathom Analytics](https://github.com/mackenly/mcp-fathom-analytics) - Access Fathom Analytics data and reports about your sites
-- <img src="https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg" height="14"/> [Facebook Ads](https://github.com/gomarble-ai/facebook-ads-mcp-server) - MCP server acting as an interface to the Facebook Ads, enabling programmatic access to Facebook Ads data and management features.
-- <img src="https://img.icons8.com/?size=48&id=ui4CTPMMDCFh&format=png" height="14"/> [Google Ads](https://github.com/gomarble-ai/google-ads-mcp-server) - MCP server acting as an interface to the Google Ads, enabling programmatic access to Google Ads data and management features.
-<br />
-
-## 📝 <a name="note-taking"></a>Note Taking
-
-> Integration with note-taking applications and personal knowledge management tools. Enables access to notes, documents, and personal information stores.
-- <img src="https://static.wikia.nocookie.net/logopedia/images/2/25/Apple_Books_%28iOS%29_2024_dark.svg/revision/latest?cb=20240616234654" height="14"/> [Apple Books](https://github.com/vgnshiyer/apple-books-mcp) - Transform your Apple Books to a queryable knowledge base.
-- <img src="https://github.com/onebirdrocks/ebook-mcp/raw/refs/heads/main/favicon.png" alt="ebook-mcp Logo" height="14" /> [eBook-mcp](https://github.com/onebirdrocks/ebook-mcp) - A lightweight MCP server that allows LLMs to read and interact with your personal PDF and EPUB ebooks on your local machine. Ideal for building AI reading assistants or chat-based ebook interfaces.
-- <img src="https://cdn.simpleicons.org/obsidian/7C3AED" height="14"/> [Obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)<sup><sup>1</sup></sup> - Obsidian vault integration with tools for file management, search, and content manipulation
-- <img src="https://cdn.simpleicons.org/obsidian/7C3AED" height="14"/> [Obsidian](https://github.com/calclavia/mcp-obsidian)<sup><sup>2</sup></sup> - Alternative implementation for reading and searching Markdown notes
-- <img src="https://cdn.simpleicons.org/notion/787878" height="14"/> [Notion](https://github.com/danhilse/notion_mcp)<sup><sup>1</sup></sup> - Notion API integration for managing personal todo lists and notes
-- <img src="https://cdn.simpleicons.org/notion/787878" height="14"/> [Notion](https://github.com/suekou/mcp-notion-server)<sup><sup>2</sup></sup> - Alternative implementation for Notion API integration
-- <img src="https://cdn.simpleicons.org/apple/999999" height="14"/> [Apple Notes](https://github.com/sirmews/apple-notes-mcp) - Read from local Apple Notes database (macOS only)
-- <img src="https://pipedream.com/s.v0/app_Noh9dw/logo/orig" height="14"/> [Slite](https://github.com/fajarmf/slite-mcp) - Model Context Protocol server for Slite integration. Search and retrieve notes, browse note hierarchies, and access content from your Slite workspace.
-- <img src="https://cdn.simpleicons.org/todoist/E44332" height="14"/> [Todoist](https://github.com/abhiz123/todoist-mcp-server) - An MCP server implementation for Todoist, enabling natural language task management.
-- <img src="https://cdn.simpleicons.org/googlekeep/FFBB00" height="14"/> [Google Keep](https://github.com/feuerdev/keep-mcp) - Read, create, update and delete Google Keep notes.
+- <img src="https://aws.amazon.com/favicon.ico" height="14"/> [AWS](https://github.com/rishikavikondala/mcp-server-aws) - Perform operations on your AWS resources using an LLM
+- <img src="https://aws.amazon.com/favicon.ico" height="14"/> [AWS Cost Explorer](https://github.com/aaronsb/mcp-aws-cost-explorer) - AWS Cost and Usage tools for billing analysis
+- <img src="https://azure.microsoft.com/favicon.ico" height="14"/> [Azure](https://github.com/Azure/azure-mcp) - Azure management and interaction capabilities
+- <img src="https://cdn.brandfetch.io/cloudflare.com/w/512/h/512" height="14"/> [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Deploy and manage resources on the Cloudflare developer platform
+- <img src="https://www.digitalocean.com/favicon.ico" height="14"/> [DigitalOcean](https://github.com/digitalocean/mcp-server) - Manage DigitalOcean resources, Droplets, databases, domains, and more through natural language
+- <img src="https://www.google.com/favicon.ico" height="14"/> [GCP](https://github.com/rahulthedevil/gcp-mcp-server) - Google Cloud Platform integration for managing GCP resources
+- <img src="https://fly.io/favicon.ico" height="14"/> [Fly.io](https://github.com/fly-apps/fly-mcp) - Manage your apps on Fly.io
+- <img src="https://www.heroku.com/favicon.ico" height="14"/> [Heroku](https://github.com/heroku/heroku-mcp-server) - Interact with the Heroku Platform to manage and deploy apps, dynos, add-ons, and more
+- <img src="https://opslevel.com/favicon.ico" height="14"/> [OpsLevel](https://github.com/OpsLevel/mcp-server-opslevel) - Interact with OpsLevel, the Internal Developer Portal
+- <img src="https://railway.app/favicon.ico" height="14"/> [Railway](https://github.com/jason-tan-swe/railway-mcp) - Integrate with Railway for deploying and managing Railway infrastructure
+- <img src="https://render.com/favicon.ico" height="14"/> [Render](https://github.com/Render-AI/render-mcp-server) - Manage and deploy services on the Render cloud platform
+- <img src="https://www.vercel.com/favicon.ico" height="14"/> [Vercel](https://github.com/vercel/mcp-adapter) - An MCP adapter for Vercel
 
 <br />
 
-## ⚡ <a name="cloud-platforms"></a>Cloud Platforms
+## 🔄 <a name="devops--cicd"></a>DevOps & CI/CD
 
-> Cloud platform service integration. Enables management and interaction with cloud infrastructure and services.
+Tools for automating software development, deployment, and infrastructure management.
 
-- <img src="https://cdn.simpleicons.org/cloudflare/F38020" height="14"/> [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)<sup><sup>⭐</sup></sup> - Integration with Cloudflare services including Workers, KV, R2, and D1
-- <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="14"/> [Kubernetes](https://github.com/strowk/mcp-k8s-go)<sup><sup>1</sup></sup> - Kubernetes cluster operations through MCP
-- <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="14"/> [Kubernetes](https://github.com/weibaohui/k8m)<sup><sup>2</sup></sup> - Kubernetes  multi-cluster  management and operations, featuring a management ui, logging, and nearly 50 built-in tools covering common DevOps and development scenarios. Supports both standard and CRD resources.
-- <img src="https://cdn.simpleicons.org/kubernetes/326CE5" height="14"/> [MKP](https://github.com/StacklokLabs/mkp)<sup><sup>3</sup></sup> - Model Kontext Protocol Server for Kubernetes with native Go implementation, direct API integration, and comprehensive resource management
-- <img src="https://tinybird.co/favicon.ico" height="14"/> [Tinybird](https://github.com/tinybirdco/mcp-tinybird)<sup><sup>⭐</sup></sup> - Interact with a Tinybird Workspace from any MCP client.
-
-<br />
-
-## ⚙️ <a name="workflow-automation"></a>Workflow Automation
-
-> Integration with workflow automation platforms allows AI models to execute workflows and retrieve data back to their systems.
-
-- <img src="https://www.make.com/favicon.ico" height="14"/> [Make](https://github.com/integromat/make-mcp-server)<sup><sup>⭐</sup></sup> - Turn Make scenarios into callable tools for AI assistants.
-- <img src="https://www.taskade.com/favicon.ico" height="14"/> [Taskade MCP](https://github.com/taskade/mcp)<sup><sup>⭐</sup></sup> - Official Taskade MCP server + OpenAPI → MCP codegen to build AI agent tools from any API and connect Taskade to Claude, Cursor, and more.
+- <img src="https://buildkite.com/favicon.ico" height="14"/> [Buildkite](https://github.com/buildkite/buildkite-mcp-server) - Interact with Buildkite APIs to access builds, pipelines and agents.
+- <img src="https://circleci.com/favicon.ico" height="14"/> [CircleCI](https://github.com/CircleCI-Public/mcp-server-circleci) - Enable AI Agents to fix build failures from CircleCI
+- <img src="https://www.docker.com/favicon.ico" height="14"/> [Docker](https://github.com/ckreiling/mcp-server-docker) - Integrate with Docker to manage containers, images, volumes, and networks
+- <img src="https://www.drone.io/favicon.ico" height="14"/> [Drone](https://github.com/MarkusPfundstein/mcp-server-drone) - Interact with Drone CI server for builds, repositories and users
+- <img src="https://github.githubassets.com/favicon.ico" height="14"/> [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - Repository management, file operations, and GitHub API integration
+- <img src="https://about.gitlab.com/ico/favicon.ico" height="14"/> [GitLab](https://github.com/yoda-digital/mcp-gitlab-server) - Interact with GitLab repositories, issues, pipelines and more
+- <img src="https://www.jenkins.io/favicon.ico" height="14"/> [Jenkins](https://github.com/ARMmaster17/mcp-server-jenkins) - Interact with Jenkins CI/CD server for pipelines and builds
+- <img src="https://www.hashicorp.com/favicon.ico" height="14"/> [Terraform](https://github.com/hashicorp/terraform-mcp-server) - Seamless integration with Terraform ecosystem for infrastructure as code workflows
+- <img src="https://about.gitlab.com/ico/favicon.ico" height="14"/> [GitLab](https://github.com/kapilkumar2001/mcp-gitlab-server) - Another GitLab integration for MCP
 
 <br />
 
-## 🤖 <a name="system-automation"></a>System Automation
+## 🌐 <a name="web--browser-automation"></a>Web & Browser Automation
 
-> Tools for shell access, system control, and task automation. Enables AI models to execute commands and interact with the operating system.
+Tools for web scraping, browser automation, and internet information retrieval.
 
-- <img src="https://api.iconify.design/mdi:console.svg?color=%2390EE90" height="14"/> [Shell](https://github.com/rusiaaman/wcgw) - Autonomous shell execution and computer control (Mac)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" height="14"/> [Windows CLI](https://github.com/SimonB97/win-cli-mcp-server) - Windows CLI MCP Server for secure command-line interactions on Windows systems, enabling controlled access to PowerShell, CMD, and Git Bash shells.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" height="14"/> [Windows Control](https://github.com/Cheffromspace/nutjs-windows-control) - Windows automation MCP server providing mouse, keyboard, screen capture, clipboard, and window management capabilities using NutJS.
-- <img src="https://cdn.simpleicons.org/gnometerminal/2196F3" height="14"/> [Command Line](https://github.com/phialsbasement/cmd-mcp-server) - MCP server allowing any and all command execution over CMD(BE CAREFUL).
-- <img src="https://cdn.simpleicons.org/apple/999999" height="14"/> [Apple Shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts) - An MCP Server Integration with Apple Shortcuts
-
-<br />
-
-## 📱 <a name="social-media"></a>Social Media
-
-> Integration with social media platforms and content sharing services. Enables interaction with social networks and content platforms.
-
-- <img src="https://cdn.simpleicons.org/bluesky/0085FF" height="14"/> [BlueSky](https://github.com/keturiosakys/bluesky-context-server) - Bluesky API integration for querying and searching feeds and posts
-- <img src="https://cdn.simpleicons.org/youtube/FF0000" height="14"/> [YouTube](https://github.com/anaisbetts/mcp-youtube)<sup><sup>1</sup></sup> - YouTube integration using yt-dlp for subtitle downloading and video analysis
-- <img src="https://cdn.simpleicons.org/youtube/FF0000" height="14"/> [YouTube](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript)<sup><sup>2</sup></sup> - Alternative implementation for fetching YouTube subtitles and transcripts
-- <img src="https://cdn.simpleicons.org/spotify/1DB954" height="14"/> [Spotify](https://github.com/varunneal/spotify-mcp) - Connects with Spotify for playback control and track/album/artist/playlist management.
-- <img src="https://cdn.worldvectorlogo.com/logos/tiktok-icon-2.svg" height="14"/> [TikTok](https://github.com/Seym0n/tiktok-mcp) - TikTok integration for getting post details and video's subtitles
+- <img src="https://www.browse.ai/favicon.ico" height="14"/> [Browse AI](https://github.com/Browse-AI/browse-ai-mcp) - Extract and monitor data from websites using Browse AI
+- <img src="https://brightdata.com/favicon.ico" height="14"/> [Bright Data](https://github.com/luminati-io/brightdata-mcp) - Bypass anti-bot measures and access any website at scale
+- <img src="https://browsermcp.io/favicon.ico" height="14"/> [BrowserMCP](https://github.com/browsermcp/mcp) - Automate your local browser using MCP
+- <img src="https://firecrawl.dev/favicon.ico" height="14"/> [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server) - Advanced web scraping with JavaScript rendering
+- <img src="https://hyperbrowser.ai/favicon.ico" height="14"/> [Hyperbrowser](https://github.com/hyperbrowserai/mcp) - Headless browsers in the cloud: scrape, crawl, and navigate any site
+- <img src="https://lightpanda.io/favicon.ico" height="14"/> [Lightpanda](https://github.com/lightpanda-io/mcp-server) - An ultra-fast headless browser for AI agents, designed for web scraping and automation
+- <img src="https://www.microsoft.com/favicon.ico" height="14"/> [Playwright](https://github.com/executeautomation/mcp-playwright) - Browser automation and webscraping using Playwright
+- <img src="https://puppeteer.github.io/favicon.ico" height="14"/> [Puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) - Browser automation and web scraping
+- <img src="https://scrapingbee.com/favicon.ico" height="14"/> [ScrapingBee](https://github.com/scrapingbee/mcp-scrapingbee) - Web scraping with JavaScript rendering using ScrapingBee
+- <img src="https://searxng.org/favicon.ico" height="14"/> [SearXNG](https://github.com/ihor-sokoliuk/mcp-searxng) - Open-source internet metasearch engine
+- <img src="https://serpapi.com/favicon.ico" height="14"/> [SerpApi](https://github.com/SerpApi/mcp-server-serpapi) - Scrape search engine results using SerpApi
+- <img src="https://stagehand.dev/favicon.ico" height="14"/> [Stagehand](https://github.com/browserbase/stagehand-mcp-server) - AI-powered browser automation using Stagehand
+- [Fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - Web content fetching and conversion for efficient LLM usage
+- [Bing Search](https://github.com/leehanchung/mcp-bing-search) - Bing Search integration for web search
+- [DuckDuckGo Search](https://github.com/nickclyde/duckduckgo-mcp-server) - Web search using DuckDuckGo
 
 <br />
 
-## 🎮 <a name="gaming"></a>Gaming
+## 📊 <a name="data--analytics"></a>Data & Analytics
 
-> Gaming data and Game Development tools.
+Data processing, visualization, and analytics tools.
 
-- <img src="https://cdn.simpleicons.org/unity/899499" height="14"/> [Unity Engine](https://github.com/IvanMurzak/Unity-MCP)<sup><sup>1</sup></sup> - Tools for Unity Editor and for a game made with Unity
-- <img src="https://cdn.simpleicons.org/unity/899499" height="14"/> [UnityEngine](https://github.com/CoderGamester/mcp-unity)<sup><sup>2</sup></sup> - Unity3d Game Engine integration for game development
-- <img src="https://cdn.simpleicons.org/unity/899499" height="14"/> [Unity Engine](https://github.com/codemaestroai/advanced-unity-mcp)<sup><sup>3</sup></sup> - Advanced Unity MCP from Code Maestro. Build, debug, profile, and manage assets, scenes, and scripts with natural language via MCP.
+- <img src="https://grafana.com/favicon.ico" height="14"/> [Grafana](https://github.com/grafana/mcp-grafana) - Access your Grafana instance and interact with dashboards, data sources, and incidents
+- <img src="https://metabase.com/favicon.ico" height="14"/> [Metabase](https://github.com/biegehydra/mcp-metabase) - Connect to Metabase instance and use natural language to query databases
+- <img src="https://mode.com/favicon.ico" height="14"/> [Mode](https://github.com/punkpeye/mcp-mode) - Interact with Mode analytics
+- <img src="https://motherduck.com/favicon.ico" height="14"/> [MotherDuck](https://github.com/motherduck-orm/mcp-server-motherduck) - Connect to MotherDuck cloud analytics service
+- <img src="https://openbb.co/favicon.ico" height="14"/> [OpenBB](https://github.com/OpenBB-finance/mcp-for-openbb) - MCP server for OpenBB, the open source financial data platform
+- <img src="https://www.pandas.com/favicon.ico" height="14"/> [Pandas AI](https://github.com/Sinaptik-AI/pandas-ai-mcp) - Intelligent data analysis using Pandas AI
+- <img src="https://www.tableau.com/favicon.ico" height="14"/> [Tableau](https://github.com/takuya-hashimoto/mcp-tableau) - Tableau integration for analytics and visualization
+- [Kaggle](https://github.com/Hk669/mcp-kaggle) - Explore and use Kaggle datasets and competitions
+
+<br />
+
+## 🧩 <a name="api-integration"></a>API Integration
+
+Tools for connecting to and working with various external APIs.
+
+- <img src="https://www.airtable.com/favicon.ico" height="14"/> [Airtable](https://github.com/domdomegg/airtable-mcp-server) - Read and write access to Airtable databases
+- <img src="https://www.alibabacloud.com/favicon.ico" height="14"/> [Alibaba Cloud](https://github.com/aliyun/alibaba-cloud-ops-mcp-server) - Manage and operate Alibaba Cloud resources
+- <img src="https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/docs/my-website/img/favicon.ico" height="14"/> [Any OpenAI-Compatible LLM](https://github.com/calvernaz/alphapilot) - Connect to any OpenAI-compatible LLM
+- <img src="https://www.contentful.com/favicon.ico" height="14"/> [Contentful](https://github.com/jakobhoeg/mcp-contentful-server) - Interact with Contentful CMS
+- <img src="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png" height="14"/> [HubSpot](https://github.com/buryat/mcp-hubspot) - Interact with HubSpot CRM
+- <img src="https://linear.app/favicon.ico" height="14"/> [Linear](https://github.com/jerhadf/linear-mcp-server) - Linear project management integration
+- <img src="https://openapi-mcp.com/favicon.ico" height="14"/> [OpenAPI](https://github.com/snaggle-ai/openapi-mcp-server) - Run any OpenAPI-compatible API via MCP
+- <img src="https://www.salesforce.com/favicon.ico" height="14"/> [Salesforce](https://github.com/smn2gnt/MCP-Salesforce) - Interact with Salesforce data and metadata
+- <img src="https://stripe.com/favicon.ico" height="14"/> [Stripe](https://github.com/stripe/agent-toolkit) - Interact with the Stripe API
+- <img src="https://www.zendesk.com/favicon.ico" height="14"/> [Zendesk](https://github.com/reminia/mcp-zendesk) - Interact with Zendesk for customer support management
+- <img src="https://zapier.com/favicon.ico" height="14"/> [Zapier](https://github.com/zapier/mcp-server-zapier) - Connect to thousands of apps through Zapier's automation platform
+
+<br />
+
+## 🔐 <a name="security"></a>Security
+
+Security-focused tools for authentication, secrets management, and vulnerability scanning.
+
+- <img src="https://1password.com/favicon.ico" height="14"/> [1Password](https://github.com/1password/mcp-server-1password) - Access secrets and items in 1Password vaults
+- <img src="https://aquasecurity.github.io/favicon.ico" height="14"/> [Aqua Security](https://github.com/aquasecurity/mcp-aqua) - Scan containers and code for security vulnerabilities
+- <img src="https://www.hashicorp.com/favicon.ico" height="14"/> [HashiCorp Vault](https://github.com/LostInBrittany/mcp-server-vault) - Access HashiCorp Vault for secrets management
+- <img src="https://nessus.tenable.com/favicon.ico" height="14"/> [Nessus](https://github.com/IvanFromOdessa/nessus-mcp-server) - Interact with Nessus for vulnerability scanning and management
+- <img src="https://portswigger.net/favicon.ico" height="14"/> [PortSwigger Burp Suite](https://github.com/PortSwigger/mcp-server) - AI-powered web vulnerability scanning using Burp Suite
+- <img src="https://snyk.io/favicon.ico" height="14"/> [Snyk](https://github.com/snyk/snyk-mcp) - Security and code analysis using Snyk
+- <img src="https://www.sonarqube.org/favicon.ico" height="14"/> [SonarQube](https://github.com/SonarSource/sonarqube-mcp-server) - Code quality and security analysis using SonarQube
+
+<br />
+
+## 🗺️ <a name="location--maps"></a>Location & Maps
+
+Geographic data, mapping services, and location-based tools.
+
+- <img src="https://www.google.com/favicon.ico" height="14"/> [Google Maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) - Location services, directions, and place details
+- <img src="https://www.here.com/favicon.ico" height="14"/> [HERE Maps](https://github.com/heremaps/here-mcp-server) - HERE Maps Platform API for location-based services
+- <img src="https://nominatim.org/favicon.ico" height="14"/> [Nominatim](https://github.com/ericselin/mcp-server-nominatim) - OpenStreetMap Nominatim for geocoding
+- <img src="https://www.openstreetmap.org/favicon.ico" height="14"/> [OpenStreetMap](https://github.com/webcoderz/MCP-Geo) - Geocoding using OpenStreetMap Nominatim API
+- <img src="https://www.mapbox.com/favicon.ico" height="14"/> [Mapbox](https://github.com/mapbox/mcp-server) - Maps, geocoding, navigation, and geospatial analysis
+- <img src="https://weatherapi.com/favicon.ico" height="14"/> [Weather](https://github.com/adhikasp/mcp-weather) - Get current and forecast weather using AccuWeather API
+
+<br />
+
+## 🌿 <a name="version-control"></a>Version Control
+
+Tools for managing code repositories and version control systems.
+
+- <img src="https://github.githubassets.com/favicon.ico" height="14"/> [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - Repository management, file operations, and GitHub API integration
+- <img src="https://about.gitlab.com/ico/favicon.ico" height="14"/> [GitLab](https://github.com/yoda-digital/mcp-gitlab-server) - Interact with GitLab repositories, issues, and CI/CD pipelines
+- <img src="https://git-scm.com/favicon.ico" height="14"/> [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Tools to read, search, and manipulate Git repositories
+- <img src="https://bitbucket.org/favicon.ico" height="14"/> [Bitbucket](https://github.com/gauthierpetetin-hashicorp/mcp-server-bitbucket) - Interact with Bitbucket repositories
+
+<br />
+
+## 📋 <a name="project-management"></a>Project Management
+
+Tools for managing projects, tasks, and workflows.
+
+- <img src="https://www.atlassian.com/favicon.ico" height="14"/> [Jira](https://github.com/sooperset/mcp-atlassian) - Interact with Atlassian Jira for project management
+- <img src="https://www.atlassian.com/favicon.ico" height="14"/> [Confluence](https://github.com/sooperset/mcp-atlassian) - Interact with Atlassian Confluence for documentation management
+- <img src="https://asana.com/favicon.ico" height="14"/> [Asana](https://github.com/roychri/mcp-server-asana) - Create and manage tasks and projects in Asana
+- <img src="https://linear.app/favicon.ico" height="14"/> [Linear](https://github.com/jerhadf/linear-mcp-server) - Linear project management integration
+- <img src="https://monday.com/favicon.ico" height="14"/> [Monday.com](https://github.com/sakce/mcp-server-monday) - Interact with Monday.com boards and items
+- <img src="https://trello.com/favicon.ico" height="14"/> [Trello](https://github.com/nishikantparmariam/trello-mcp) - Interact with Trello boards, lists, and cards
+- <img src="https://clickup.com/favicon.ico" height="14"/> [ClickUp](https://github.com/taazkareem/clickup-mcp-server) - Create, update, delete and manage tasks in ClickUp
+
+<br />
+
+## 📧 <a name="email"></a>Email
+
+Email management and automation tools.
+
+- <img src="https://www.google.com/favicon.ico" height="14"/> [Gmail](https://github.com/pyautoml/gmail-mcp-server) - Read, compose, and manage Gmail emails
+- <img src="https://www.google.com/favicon.ico" height="14"/> [Google Gmail](https://github.com/JasonGuoo/mcp-gmail) - Access and interact with Gmail
+- <img src="https://www.microsoft.com/favicon.ico" height="14"/> [Microsoft Outlook](https://github.com/hannesrudolph/outlook-mcp-server) - Interact with Microsoft Outlook emails and calendar
+- <img src="https://www.mailchimp.com/favicon.ico" height="14"/> [Mailchimp](https://github.com/aaronsb/mcp-mailchimp) - Interact with Mailchimp for email marketing campaigns
+- <img src="https://sendgrid.com/favicon.ico" height="14"/> [SendGrid](https://github.com/AidanHanda/sendgrid-mcp) - Send emails with SendGrid
+- <img src="https://postmarkapp.com/favicon.ico" height="14"/> [Postmark](https://github.com/ActiveCampaign/postmark-mcp) - Interact with Postmark for transactional email services
+- <img src="https://resend.com/favicon.ico" height="14"/> [Resend](https://github.com/resend/mcp-send-email) - Send emails with the Resend API
+
+<br />
+
+## 🎨 <a name="design--media"></a>Design & Media
+
+Tools for design, media creation, and asset management.
+
+- <img src="https://www.figma.com/favicon.ico" height="14"/> [Figma](https://github.com/GLips/Figma-Context-MCP) - Access Figma designs and components
+- <img src="https://www.figma.com/favicon.ico" height="14"/> [Figma Dev Mode](https://github.com/figma/figma-developer-mcp) - Give Claude direct access to Figma file data to implement your designs
+- <img src="https://canva.com/favicon.ico" height="14"/> [Canva](https://github.com/surajsau/mcp-canva) - Create and manage designs in Canva
+- <img src="https://blender.org/favicon.ico" height="14"/> [Blender](https://github.com/ahujasid/blender-mcp) - Connect to Blender for 3D modeling and rendering
+- <img src="https://giphy.com/favicon.ico" height="14"/> [GIPHY](https://github.com/iamucil/giphy-mcp-server) - Search and retrieve GIFs from GIPHY
+- <img src="https://images.ctfassets.net/lzny33ho1g45/6OBBqSoGjhHJXGKyBPBRhN/027745e21eb96e8e91a43fa64c69f3bc/Unsplash_app_icon.png" height="14"/> [Unsplash](https://github.com/bhawkyard1/unsplash-mcp-server) - Search and retrieve high-quality photos from Unsplash
+- <img src="https://cloudinary.com/favicon.ico" height="14"/> [Cloudinary](https://github.com/cloudinary-labs/cloudinary-mcp-server) - Manage and optimize media assets in Cloudinary
+- <img src="https://www.adobe.com/favicon.ico" height="14"/> [Adobe Photoshop](https://github.com/Pvpkishore/Adobe-Photoshop-MCP) - Control and automate Adobe Photoshop workflows
+
+<br />
+
+## 🔬 <a name="research--science"></a>Research & Science
+
+Tools for scientific research, data analysis, and academic resources.
+
+- <img src="https://arxiv.org/favicon.ico" height="14"/> [arXiv](https://github.com/blazickjp/arxiv-mcp-server) - Search and retrieve academic papers from arXiv
+- <img src="https://europepmc.org/favicon.ico" height="14"/> [EuropePMC](https://github.com/tuannvm/mcp-europepmc) - Search and retrieve biomedical literature from Europe PMC
+- <img src="https://www.ncbi.nlm.nih.gov/favicon.ico" height="14"/> [PubMed](https://github.com/andybrandt/mcp-simple-pubmed) - Search and retrieve biomedical literature from PubMed
+- <img src="https://www.semanticscholar.org/favicon.ico" height="14"/> [Semantic Scholar](https://github.com/andybrandt/mcp-semanticscholar) - Search and retrieve academic papers from Semantic Scholar
+- <img src="https://www.wolframalpha.com/favicon.ico" height="14"/> [Wolfram Alpha](https://github.com/SecretiveShell/MCP-wolfram-alpha) - Access computational intelligence with Wolfram Alpha
 
 <br />
 
 ## 💹 <a name="finance"></a>Finance
 
-> Financial data and cryptocurrency information services.
+Financial data, market information, and economic tools.
 
-- <img src="https://docs.octagonagents.com/logo.svg" alt="Octagon Logo" height="14"/> [Octagon](https://github.com/OctagonAI/octagon-mcp-server)<sup><sup>⭐</sup></sup> - Deliver real-time market intelligence with extensive private and public market data.
-- <img src="https://cdn.simpleicons.org/coinmarketcap/FF8C00" height="14"/> [CoinMarket](https://github.com/anjor/coinmarket-mcp-server) - Coinmarket API integration for cryptocurrency data
-- <img src="https://www.chargebee.com/static/resources/brand/favicon.png" height="14"> [Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)<sup><sup>⭐</sup></sup> - MCP Server that connects AI agents to [Chargebee platform](https://www.chargebee.com).
-- <img src="https://dexpaprika.com/favicon.ico" height="14"/> [DexPaprika](https://github.com/donbagger/dexpaprika-mcp-server)<sup><sup>⭐</sup></sup> - Comprehensive cryptocurrency and DEX data API across multiple blockchains, providing real-time token pricing, liquidity pools, and OHLCV data for market analysis
-- <img src="https://www.mercadopago.com/favicon.ico" height="14" alt="MercadoPago Logo" /> [Mercado Pago](https://mcp.mercadopago.com/) - Mercado Pago's official MCP server, offering tools to interact with our API, simplifing tasks and product integration.
-- <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg" height="14"> [PayPal](https://github.com/paypal/agent-toolkit/tree/main/modelcontextprotocol)<sup><sup>⭐</sup></sup> - The PayPal Agent Toolkit enables popular agent frameworks including Model Context Protocol (MCP) to integrate with PayPal APIs through function calling.
-- <img src="https://cdn.simpleicons.org/stripe" height="14"/> [Stripe](https://github.com/stripe/agent-toolkit/tree/main)<sup><sup>⭐</sup></sup> - Allows you to integrate with Stripe APIs
-- <img src="https://pub.pbkrs.com/files/202211/TNosrY77nCxm6rtU/logo-without-title.svg" height="14"/> [LongPort OpenAPI](https://github.com/longportapp/openapi/tree/main/mcp)<sup><sup>⭐</sup></sup> - Provides real-time stock market data, provides AI access analysis and trading capabilities through MCP.
-- <img src="https://zbd.gg/favicon.ico" height="14"/> [ZBD](https://github.com/zebedeeio/zbd-payments-typescript-sdk/tree/main/packages/mcp-server)<sup><sup>⭐</sup></sup> - Interact with ZBD's payment processing APIs for instant global payments with Bitcoin and Lightning Network
-
-<br />
-
-## 🧬 <a name="research-data"></a>Research & Data
-
-> Access to research papers, genetic data, and specialized datasets.
-
-- <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="14"/> [ArXiv](https://github.com/blazickjp/arxiv-mcp-server) - Search ArXiv research papers
-- <img src="https://api.iconify.design/mdi:dna.svg?color=%23E34234" height="14"/> [Ancestry](https://github.com/reeeeemo/ancestry-mcp) - Read .ged files and genetic data
-- <img src="https://probe.dev/favicon.ico" height="14"/> [Probe.dev](https://mcp.probe.dev) - Professional media analysis and validation MCP server with FFprobe, MediaInfo, and comprehensive reporting capabilities
-- <img src="https://cdn.simpleicons.org/apple/7ED957" height="14"/> [OpenNutrition](https://github.com/deadletterq/mcp-opennutrition) - Search 300,000+ foods, nutrition facts, and barcodes from the OpenNutrition database
-- <img src="https://congressmcp.lawgiver.ai/favicon.svg" height="14"/> [Congress](https://github.com/amurshak/congressMCP) - Query and reeason about legislative data from Congress.gov
+- <img src="https://alphavantage.co/favicon.ico" height="14"/> [Alpha Vantage](https://github.com/calvernaz/alphavantage) - Stock market data and financial information
+- <img src="https://www.coinbase.com/favicon.ico" height="14"/> [Coinbase](https://github.com/coinbase/coinbase-mcp) - Interact with Coinbase for cryptocurrency trading and management
+- <img src="https://coingecko.com/favicon.ico" height="14"/> [CoinGecko](https://github.com/tooyipjee/tokenstats-mcp) - CoinGecko API integration for crypto market data and analytics
+- <img src="https://www.investopedia.com/favicon.ico" height="14"/> [Investopedia Terms](https://github.com/SEJeff/mcp_investopedia_terms) - Financial definitions from Investopedia
+- <img src="https://www.meelion.com/favicon.ico" height="14"/> [Meelion MCP](https://github.com/Meelion-com/meelion-mcp) - Brazilian fixed income & financial data for AI — Selic, CDI, IPCA, CDB/LCI/LCA rankings, FX rates (USD, EUR), gold and Bitcoin quotes via JSON-RPC. No scraping, structured payloads ready for LLMs.
+- <img src="https://openbb.co/favicon.ico" height="14"/> [OpenBB](https://github.com/OpenBB-finance/mcp-for-openbb) - MCP server for OpenBB, the open source financial data platform
+- <img src="https://polygon.io/favicon.ico" height="14"/> [Polygon](https://github.com/polygon-io/mcp-polygon) - Access financial market data via the Polygon.io API
+- <img src="https://www.tiingo.com/favicon.ico" height="14"/> [Tiingo](https://github.com/mattlinnell/tiingo-mcp) - Access financial data for stocks, mutual funds, and ETFs
 
 <br />
 
-## 🤝 <a name="ai-services"></a>AI Services
+## 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
 
-> Integration with AI and machine learning services.
+Tools for managing and querying knowledge bases and memory systems.
 
-- <img src="https://agentset.ai/screenshots/logo.png" height="14"/> [Agentset AI](https://github.com/agentset-ai/mcp-server) -  RAG on your data using MCP protocol
-- <img src="https://cdn.simpleicons.org/openai/00A67E" height="14"/> [OpenAI](https://github.com/pierrebrunelle/mcp-server-openai) - Query OpenAI models directly from Claude using MCP protocol
-- <img src="https://cdn.simpleicons.org/openai/00A67E" height="14"/> [OpenAI Compatible Chat](https://github.com/pyroprompts/any-chat-completions-mcp) - Chat with models from OpenAI-compatible APIs (Perplexity, Groq, xAI, etc.)
-- <img src="https://cdn.simpleicons.org/perplexity" height="14"/> [Perplexity](https://github.com/tanigami/mcp-server-perplexity) Chat with Perplexity via MCP
-- <img src="https://cloud.llamaindex.ai/favicon.ico" height="14"/> [LlamaCloud](https://github.com/run-llama/mcp-server-llamacloud) - LlamaCloud MCP Server. A TypeScript-based MCP server connecting to a managed index on LlamaCloud.
-- <img src="https://huggingface.co/favicon.ico" height="14"/> [HuggingFace Spaces](https://github.com/evalstate/mcp-hfspace) - Use HuggingFace spaces from your MCP Client. Supports Images, Audio, Text and more.
-- <img src="https://piapi.ai/piapi_favicon.webp" height="14"> [PiAPI](https://github.com/apinetwork/piapi-mcp-server) - PiAPI MCP server makes user able to generate media content with Midjourney/Flux/Kling/Hunyuan/Udio/Trellis directly from Claude or any other MCP-compatible apps.
-- <img src="https://www.chronulus.com/favicon/chronulus-logo-blue-on-alpha-square-128x128.ico" alt="Chronulus AI Logo" height="14" width="14"> [Chronulus AI](https://github.com/ChronulusAI/chronulus-mcp) -  Predict anything with Chronulus AI multimodal forecasting and prediction agents ([Watch Demos on Youtube](https://youtube.com/playlist?list=PLPLu09ZbT8KKS04V6SSm2Acjv43FKq329&si=n2YER2in4gOqwssY)).
-- <img src="https://www.creatify.ai/favicon.ico" height="14"/> [Creatify](https://github.com/TSavo/creatify-mcp) - MCP Server that exposes Creatify AI API capabilities for AI video generation, including avatar videos, URL-to-video conversion, text-to-speech, and AI-powered editing tools.
-- <img src="https://www.svgrepo.com/show/495208/data.svg" height="14"/> [ZenML](https://github.com/zenml-io/mcp-zenml)<sup><sup>⭐</sup></sup> - Chat with your MLOps and LLMOps pipelines using the [ZenML](https://www.zenml.io) MCP server
+- <img src="https://mem0.ai/favicon.ico" height="14"/> [Mem0](https://github.com/mem0ai/mem0-mcp) - Personalized AI memory layer for storing and retrieving user preferences
+- <img src="https://www.notion.so/favicon.ico" height="14"/> [Notion](https://github.com/v-3/notion-server) - Interact with Notion for knowledge management
+- <img src="https://obsidian.md/favicon.ico" height="14"/> [Obsidian](https://github.com/calclavia/mcp-obsidian) - Read and search through Markdown notes in Obsidian vaults
+- [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Knowledge graph-based persistent memory system
+- [Qdrant](https://github.com/qdrant/mcp-server-qdrant) - Implement semantic memory layer using the Qdrant vector search engine
+- [Zep](https://github.com/getzep/zep-mcp) - Long-term memory storage and retrieval for AI applications
 
 <br />
 
-## 💻 <a name="development-tools"></a>Development Tools
+## 🔧 <a name="developer-tools"></a>Developer Tools
 
-> Tools and servers that assist with software development workflows. Enables integration with development-related services and APIs.
+Tools and utilities for software development and debugging.
 
-- <img src="https://www.svgrepo.com/show/107853/uranus.svg" height="14"/> [CentralMind/Gateway](https://github.com/centralmind/gateway) - MCP and MCP SSE Server that automatically generate production ready API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase
-- <img src="http://currents.dev/favicon.ico" height="14"/> [Currents](https://github.com/currents-dev/currents-mcp)<sup><sup>⭐</sup></sup> - Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev).
-- 🐙 [Octocode](https://github.com/bgauryy/octocode-mcp) -  AI-powered developer assistant that enables advanced research, analysis and discovery and code generation across GitHub and NPM realms in realtime.
-- <img src="https://raw.githubusercontent.com/kadykov/mcp-openapi-schema-explorer/main/assets/logo-400.png" height="14"/> [OpenAPI Schema Explorer](https://github.com/kadykov/mcp-openapi-schema-explorer) - Token-efficient access to OpenAPI/Swagger specs via MCP Resources.
-- <img src="https://raw.githubusercontent.com/open-rpc/design/master/icons/open-rpc-logo-noText/open-rpc-logo-noText%20(PNG)/256x256.png" height="14"/> [OpenRPC](https://github.com/shanejonas/openrpc-mpc-server) - A Model Context Protocol server that provides JSON-RPC functionality through OpenRPC.
-- <img src="https://cdn.simpleicons.org/postman" height="14" /> [Postman](https://github.com/delano/postman-mcp-server) - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/).
-- <img src="https://marketing.qasphere.com/images/logo/qasphere-square-512.png" height="14" /> [QA Sphere](https://github.com/Hypersequent/qasphere-mcp)<sup><sup>⭐</sup></sup> - Integration with QA Sphere test management system, enabling LLMs to discover, summarize, and interact with test cases directly from AI-powered IDEs
-- <img src="https://raw.githubusercontent.com/marimo-team/marimo/main/docs/_static/marimo-logotype-thick.svg" height="14" /> [marimo](https://github.com/marimo-team/codemirror-mcp)<sup><sup>⭐</sup></sup> - CodeMirror extension that implements the Model Context Protocol (MCP) for resource mentions and prompt commands.
-- <img src="https://static.figma.com/app/icon/1/favicon.ico" height="14" /> [Figma](https://github.com/GLips/Figma-Context-MCP) - Paste a link to your Figma design to get its data in a ready-to-implement format.
-- <img src="https://www.comet.com/favicon.ico" height="14" /> [Comet Opik](https://github.com/comet-ml/opik-mcp)<sup><sup>⭐</sup></sup> - Query and interact with LLM observability and telemetry captured by [Opik](https://github.com/comet-ml/opik) using natural language.
-- <img src="https://vscode.dev/static/stable/favicon.ico" height="14" /> [VSCode Devtools](https://github.com/biegehydra/BifrostMCP) - Connect to VSCode ide and allows using semantic tools like `find_usages`
-- <img src="https://mastra.ai/favicon/icon.svg" height="14" /> [Mastra/mcp](https://github.com/mastra-ai/mastra/tree/main/packages/mcp)<sup><sup>⭐</sup></sup> - Provides AI assistants with direct access to Mastra.ai's complete knowledge base.
-- <img src="https://github.com/user-attachments/assets/9d517481-c4cd-4b6c-903a-878531c9d881" height="14" /> [Bucket](https://github.com/bucketco/bucket-javascript-sdk/tree/main/packages/cli#model-context-protocol) - Flag features, manage company data, and control feature access using [Bucket](https://bucket.co)
-- <img src="https://edgeone.ai/favicon.ico" height="14" /> [EdgeOne Pages](https://github.com/TencentEdgeOne/edgeone-pages-mcp) - A MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.
-- <img src="https://cdn.jsdelivr.net/gh/jsdelivr/globalping-media@refs/heads/master/icons/android-chrome-192x192.png" height="14" /> [Globalping MCP](https://github.com/jsdelivr/globalping-mcp-server)<sup><sup>⭐</sup></sup> - Access a network of thousands of probes to run network commands like ping, traceroute, mtr, http and DNS resolve.
-- <img src="https://gitkraken.com/favicon.ico" height="14" /> [GitKraken](https://github.com/gitkraken/gk-cli)<sup><sup>⭐</sup></sup> - A CLI for interacting with GitKraken APIs. Includes an MCP server via gk mcp that not only wraps GitKraken APIs, but also Jira, GitHub, GitLab, and more. Works with local tools and remote services.
--  <img src="[https://intayer.org/fav](https://intlayer.org/favicon-32x32.png)" height="14" /> [aymericzip/intlayer](https://github.com/aymericzip/intlayer) - A MCP Server that enhance your IDE with AI-powered assistance for Intlayer i18n / CMS tool: smart CLI access, docs.
-- <img src="https://cdn.simpleicons.org/jira/0052CC" height="14"/> [tom28881/mcp-jira-server](https://github.com/tom28881/mcp-jira-server) - Comprehensive TypeScript MCP server for Jira with 20+ tools covering complete project management workflow: issue CRUD, sprint management, comments/history, attachments, batch operations. Features universal field auto-detection, full Czech/localization support, and date parsing with multiple formats. Created by [Tomáš Gregorovič](https://www.linkedin.com/in/tomáš-g-8423b61a2/).
-- <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" height="14"/>  [Maven Tools MCP](https://github.com/arvindand/maven-tools-mcp) - Maven Central dependency intelligence for JVM build tools (Maven, Gradle, SBT, Mill) with Context7 integration for documentation support.
-- <img src="https://defang.io/favicon.png" height="14" /> [DefangLabs/defang](https://github.com/DefangLabs/defang) - CLI and MCP server for building and deploying Docker Compose-compatible projects to your own AWS, GCP, or DigitalOcean account.
+- <img src="https://codeium.com/favicon.ico" height="14"/> [Codeium](https://github.com/Exafunction/codeium-mcp) - AI-powered code completion and search
+- <img src="https://www.elastic.co/favicon.ico" height="14"/> [Elastic APM](https://github.com/elastic/elastic-otel-node/tree/main/packages/mcp-server-elastic-otel-node) - Interact with Elastic APM for application performance monitoring
+- <img src="https://eslint.org/favicon.ico" height="14"/> [ESLint](https://github.com/zereight/mcp-eslint) - Run ESLint on code for linting and style checking
+- <img src="https://github.githubassets.com/favicon.ico" height="14"/> [GitHub Copilot](https://github.com/github/github-mcp-server) - Interact with GitHub APIs via GitHub Copilot
+- <img src="https://insomnia.rest/favicon.ico" height="14"/> [Insomnia](https://github.com/Kong/insomnia-mcp) - Interact with Insomnia for API testing and development
+- <img src="https://www.postman.com/favicon.ico" height="14"/> [Postman](https://github.com/danivpv/postman-mcp) - Interact with Postman for API development and testing
+- <img src="https://www.sonarqube.org/favicon.ico" height="14"/> [SonarQube](https://github.com/SonarSource/sonarqube-mcp-server) - Code quality analysis using SonarQube
+- <img src="https://swagger.io/favicon.ico" height="14"/> [Swagger](https://github.com/RocketRider/mcp-swagger) - Interact with Swagger/OpenAPI specifications
+- [Nix](https://github.com/utensils/nixmcp) - Interact with the Nix package manager
+- [Package Version](https://github.com/sammcj/mcp-package-version) - Recommend correct package versions when writing code
+- [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Dynamic and reflective problem-solving through thought sequences
+- [Semgrep](https://github.com/semgrep/mcp) - Interact with Semgrep for static analysis and code scanning
+- [Code Sandbox](https://github.com/Automata-Labs-team/MCP-Server-Playwright) - Execute Python code in a secure sandbox environment
 
 <br />
 
-## 📊 <a name="data-visualization"></a>Data Visualization
+## 🎮 <a name="gaming"></a>Gaming
 
-> Tools for creating and managing data visualizations. Enables generation of charts, graphs, and other visual representations of data.
+Tools for game development and gaming-related integrations.
 
-- <img src="https://vega.github.io/favicon.ico" height="14"/> [VegaLite](https://github.com/isaacwasserman/mcp-vegalite-server) - Generate visualizations from fetched data using the VegaLite format and renderer.
-- <img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*ZFK8SrovcqgAAAAAAAAAAAAAemJ7AQ/original" height="14"/> [Chart](https://github.com/antvis/mcp-server-chart) - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis).
-- <img src="https://echarts.apache.org/zh/images/favicon.png" height="14"/> [ECharts](https://github.com/hustcc/mcp-echarts) - Generate visual charts using [Apache ECharts](https://echarts.apache.org/) with AI MCP dynamically.
-- <img src="https://mermaid.js.org/favicon.svg" height="14"/> [Mermaid](https://github.com/hustcc/mcp-mermaid) - Generate [mermaid](https://mermaid.js.org/) diagram and chart with AI MCP dynamically.
-- <img src="https://cdn.simpleicons.org/git/F05032" height="14"/> [unified-diff-mcp](https://github.com/gorosun/unified-diff-mcp) - Generate visual diff comparisons from text changes with HTML/PNG export. Perfect for code reviews and document analysis with side-by-side visualization.
+- <img src="https://steamcommunity.com/favicon.ico" height="14"/> [Steam](https://github.com/tur-learning/steam-mcp-server) - Access Steam game information and user data
+- <img src="https://unity.com/favicon.ico" height="14"/> [Unity](https://github.com/CoderGamester/mcp-unity) - Interface with the Unity Editor for game development
+- <img src="https://minecraft.net/favicon.ico" height="14"/> [Minecraft](https://github.com/codeium/minecraft-mcp-server) - Interact with Minecraft for building and gameplay automation
 
 <br />
 
-## 🆔 <a name="identity"></a>Identity
+## 🏥 <a name="healthcare"></a>Healthcare
 
-> Tools for identity and access management. Enables user authentication, authorization.
+Tools for healthcare data, medical information, and patient management.
 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Keycloak_Logo.png" height="14"/> [Keycloak](https://github.com/ChristophEnglisch/keycloak-model-context-protocol) - MCP server implementation for managing Keycloak users, groups, and realms using natural language queries.
-
-<br />
-
-## 🔗 <a name="aggregators"></a>Aggregators
-
-> Tools for accessing many apps and tools through a single MCP server..
-
-- <img height="12" width="12" src="https://github.com/mcpjungle/MCPJungle/blob/main/assets/logo.png" alt="MCPJungle Logo" /> [MCPJungle](https://github.com/mcpjungle/MCPJungle) - Self-hosted MCP Registry and Proxy for enterprise AI Agents.
-
-- <img height="12" width="12" src="https://platform.composio.dev/favicon.ico" alt="Composio Logo"> **[Rube](https://rube.composio.dev)** - Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like "Send an email" or "Create a task."
-
-- <img height="12" width="12" src="https://pipedream.com/favicon.ico" alt="Pipedream Logo" /> [Pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol) - Connect with 2,500 APIs with 8,000+ prebuilt tools, and manage servers for your users, in your own app.
- 
-- <img height="12" width="12" src="https://cdn.zapier.com/zapier/images/favicon.ico" alt="Zapier Logo" /> [Zapier](https://zapier.com/mcp) - Connect your AI Agents to 8,000 apps instantly.
+- <img src="https://www.fhir.org/favicon.ico" height="14"/> [FHIR](https://github.com/flexpa/sero/tree/main/packages/mcp) - Access healthcare data using FHIR standard
+- <img src="https://www.nlm.nih.gov/favicon.ico" height="14"/> [MedlinePlus](https://github.com/simonwmatthews/mcp_medlineplus) - Access medical information from MedlinePlus
 
 <br />
 
-## 💬 <a name="language"></a>Language & Translation
+## 📱 <a name="mobile"></a>Mobile
 
-> Provides real-time translation of text, documents, and content between multiple languages.
+Tools for mobile app development and device interaction.
 
-- <img src="https://laratranslate.com/favicon.ico" height="14"/> [Lara](https://github.com/translated/lara-mcp)<sup><sup>⭐</sup></sup> - MCP Server for Lara Translate API, enabling powerful translation capabilities with support for language detection and context-aware translations
-
-<br />
-
-## 🔒 <a name="security"></a>Security
-
-> Tools for security needs. Enables securing code, finding vulnerabilies.
-
-- <img src="https://semgrep.dev/favicon.ico" height="14"/> [Semgrep](https://github.com/semgrep/mcp) - A MCP server for using [Semgrep](https://github.com/semgrep/semgrep) to scan code for security vulnerabilities.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/120px-Microsoft_Entra_ID_color_icon.svg.png" height="14"/> [Microsoft Entra ID](https://github.com/hieuttmmo/entraid-mcp-server) - A MCP server for interacting with EntraID through Microsoft Graph API. It is designed for extensibility, maintainability, and security, supporting advanced queries for users, sign-in logs, MFA status, privileged users and more.
-- <img src="https://www.netwrix.com/favicon.ico" height="14"/> [Netwrix](https://github.com/netwrix/mcp-server-naa)<sup><sup>⭐</sup></sup> - A FastMCP-based server for [Netwrix Access Analyzer](https://www.netwrix.com/access-analyzer.html) data analysis, designed for enhanced data analysis capabilities.
-- <img src="https://osv.dev/favicon.ico" height="14"/> [OSV](https://github.com/StacklokLabs/osv-mcp) - Access the OSV (Open Source Vulnerabilities) database for vulnerability information. Query vulnerabilities by package version or commit, batch query multiple packages, and get detailed vulnerability information by ID.
-- <img src="https://vulert.com/favicon.ico" height="14"> [Vulert](vulert.com) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
-- <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CDSP](https://github.com/sanyambassi/ciphertrust-manager-mcp-server) - MCP server for Thales CipherTrust Manager integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants.
-- <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CAKM](https://github.com/sanyambassi/thales-cdsp-cakm-mcp-server) - MCP server for Thales CDSP CAKM integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants for Ms SQL and Oracle Databases.
-- <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CRDP](https://github.com/sanyambassi/thales-cdsp-crdp-mcp-server) - MCP server for Thales CipherTrust Manager RestFul Data Protection service.
-- <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CSM](https://github.com/sanyambassi/thales-cdsp-csm-mcp-server) - MCP server for Thales CipherTrust Secrets Management
+- <img src="https://developer.apple.com/favicon.ico" height="14"/> [iOS Simulator](https://github.com/joshuayoes/ios-simulator-mcp) - Interact with iOS simulators for app testing
+- <img src="https://www.android.com/favicon.ico" height="14"/> [Android](https://github.com/minhalvp/android-mcp-server) - Interact with Android devices for app development and testing
 
 <br />
 
-## 🔌 <a name="iot"></a>IoT
+## 🌐 <a name="language--translation"></a>Language & Translation
 
-> Tools that integrate with Internet of Things connectivity.
+Language processing, translation, and localization tools.
 
-- <img src="https://avatars.githubusercontent.com/u/66228869?s=200&v=4" height="14"/> [Coreflux MQTT](https://github.com/CorefluxCommunity/CorefluxMCPServer) - MCP server for the Coreflux MQTT broker, enabling AI agents to transfom the broker into a automation hub and interact with IoT devices and messaging systems through the MQTT protocol. 
+- <img src="https://www.deepl.com/favicon.ico" height="14"/> [DeepL](https://github.com/mzxrai/mcp-deepl) - Translate text using the DeepL API
+- <img src="https://www.google.com/favicon.ico" height="14"/> [Google Translate](https://github.com/jparkerweb/mcp-google-translate) - Translate text using Google Translate
 
 <br />
 
-## 🧑‍🎨 <a name="art-literature"></a>Art & Literature
+## 🎵 <a name="entertainment"></a>Entertainment
 
-> Art and literature services.
+Entertainment and media consumption tools.
 
-- <img src="https://openlibrary.org/static/images/openlibrary-logo-tighter.svg" height="14"/> [MCP Open Library](https://github.com/8enSmith/mcp-open-library) - A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to search for book and author information.
+- <img src="https://open.spotify.com/favicon.ico" height="14"/> [Spotify](https://github.com/varunneal/spotify-mcp) - Connect to Spotify to control playback and view tracks, artists, playlists, and albums
+- <img src="https://www.youtube.com/favicon.ico" height="14"/> [YouTube](https://github.com/kimtaeyoon83/mcp-server-youtube-transcript) - Retrieve YouTube subtitles and transcripts for AI analysis
+- <img src="https://www.imdb.com/favicon.ico" height="14"/> [IMDb](https://github.com/mzxrai/mcp-imdb) - Search for movie and TV show information on IMDb
 
 <br />
 
 ## 🛒 <a name="e-commerce"></a>E-Commerce
 
-> E-Commerce platforms.
+Tools for e-commerce platforms and online retail.
 
-- <img src="https://www.mercadolibre.com.ar/favicon.ico" height="14" alt="MercadoLibre Logo" /> [Mercado Libre](https://mcp.mercadolibre.com/) - Mercado Libre's official MCP server, offering tools to interact with our marketplace, simplifying tasks and product integration.
-- <img src="https://shopsavvy.com/favicon.ico" height="14" alt="ShopSavvy Logo" /> **[ShopSavvy](https://github.com/shopsavvy/shopsavvy-mcp-server)**<sup><sup>⭐</sup></sup> - Complete product and pricing data solution for AI assistants. Search for products by barcode/ASIN/URL, access detailed product metadata, access comprehensive pricing data from thousands of retailers, view and track price history, and more. Published as `@shopsavvy/mcp-server`.
-
-<br />
-
-## 📦 <a name="data-platforms"></a>Data Platforms
-
-> Platforms for orchestrating, transforming, and managing data pipelines. Enables AI agents to interact with complex ETL/ELT workflows, unify disparate data sources, and drive automated data operations across cloud and hybrid environments.
-
-- <img height="12" width="12" src="https://connection.keboola.com/favicon.ico" alt="Keboola Logo" /> **[Keboola](https://github.com/keboola/keboola-mcp-server)**<sup><sup>⭐</sup></sup> - Build robust data workflows, integrations, and analytics on a single intuitive platform.
+- <img src="https://www.shopify.com/favicon.ico" height="14"/> [Shopify](https://github.com/shopify/dev-mcp) - Interact with Shopify APIs for e-commerce management
 
 <br />
 
-## 🤖 <a name="robotics"></a>Robotics & Physical AI
+## 🔌 <a name="iot--hardware"></a>IoT & Hardware
 
-> Robotics, drones and physical AI.
+Tools for IoT devices, smart home, and hardware integration.
 
-- <img height="14" src="https://avatars.githubusercontent.com/u/224125194?s=200&v=4" alt="Extelligence Logo"> [Bagel](https://github.com/Extelligence-ai/bagel) - ChatGPT for physical data. Troubleshoot your robots and drones with natural language. No fuss.
-
-<br />
-
-# Tools & Utilities
-
-> Tools that help manage, configure, and work with MCP servers. These utilities simplify the installation process and improve the user experience.
-
-### Server Managers
-
-- [mcp-get](https://github.com/michaellatman/mcp-get) - CLI tool for installing and managing MCP servers. Simplifies server installation and configuration for Claude Desktop.
-  - Supports NPM-based servers
-  - Automatic configuration generation
-  - Easy server management
-- [mxcp](http://github.com/raw-labs/mxcp) - Open-source framework for building secure, testable, enterprise-grade MCP tools from SQL or Python on top of dbt + DuckDB.
-- [Remote MCP](https://github.com/ssut/Remote-MCP) - Solution to Remote MCP Communication, enabling effortless integration for centralized management of Model Context
-- [yamcp](https://github.com/hamidra/yamcp) - A Model Context Workspace Manager. Oraganize your MCP servers in local workspaces (coding, design, research, ...), scan, monitor, and integrate each workspace with AI apps via a unified CLI.
-- [ToolHive](https://github.com/StacklokLabs/toolhive) - A lightweight utility designed to simplify the deployment and management of MCP servers, ensuring ease of use, consistency, and security through containerization.
+- <img src="https://www.home-assistant.io/favicon.ico" height="14"/> [Home Assistant](https://github.com/tevonsb/homeassistant-mcp) - Interact with Home Assistant for smart home automation
+- <img src="https://www.raspberrypi.com/favicon.ico" height="14"/> [Raspberry Pi](https://github.com/Synaptic-Labs-AI/mcp-server-rpi) - Control and monitor Raspberry Pi devices
+- <img src="https://www.arduino.cc/favicon.ico" height="14"/> [Arduino](https://github.com/hardcnc/arduino-mcp) - Interact with Arduino boards for hardware programming
 
 <br />
 
-Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
+## 📰 <a name="news--media"></a>News & Media
+
+Tools for accessing and analyzing news and media content.
+
+- <img src="https://newsapi.org/favicon.ico" height="14"/> [NewsAPI](https://github.com/pskill9/news-server) - Access and search for news articles using NewsAPI
+- <img src="https://www.reddit.com/favicon.ico" height="14"/> [Reddit](https://github.com/adhikasp/mcp-reddit) - Read and interact with Reddit content
+
+<br />
+
+## 🧪 <a name="testing--qa"></a>Testing & QA
+
+Tools for software testing and quality assurance.
+
+- <img src="https://www.browserstack.com/favicon.ico" height="14"/> [BrowserStack](https://github.com/browserstack/mcp-server-browserstack) - Access BrowserStack for cross-browser testing
+- <img src="https://playwright.dev/favicon.ico" height="14"/> [Playwright](https://github.com/executeautomation/mcp-playwright) - Browser testing and automation using Playwright
+
+<br />
+
+## 🏢 <a name="enterprise-systems"></a>Enterprise Systems
+
+Enterprise resource planning and business management systems.
+
+- <img src="https://www.sap.com/favicon.ico" height="14"/> [SAP](https://github.com/mario-andreschak/mcp-abap-abap-adt-api) - Interact with SAP ABAP systems using the ADT API
+- <img src="https://www.servicenow.com/favicon.ico" height="14"/> [ServiceNow](https://github.com/osomai/servicenow-mcp) - Interact with ServiceNow for IT service management
+- <img src="https://www.oracle.com/favicon.ico" height="14"/> [Oracle ERP](https://github.com/harshitsharma1250/oracle-erp-mcp-server) - Interact with Oracle ERP for enterprise resource planning
+
+<br />
+
+## 🌍 <a name="environment--sustainability"></a>Environment & Sustainability
+
+Tools for environmental data, sustainability monitoring, and green tech.
+
+- <img src="https://www.carboninterface.com/favicon.ico" height="14"/> [Carbon Interface](https://github.com/oleander/carbon-mcp-server) - Calculate carbon footprints using Carbon Interface API
+- <img src="https://www.openaq.org/favicon.ico" height="14"/> [OpenAQ](https://github.com/openaq/openaq-mcp) - Access global air quality data from OpenAQ
+
+<br />
+
+## 🤝 <a name="customer-support"></a>Customer Support
+
+Tools for customer support and helpdesk management.
+
+- <img src="https://www.freshdesk.com/favicon.ico" height="14"/> [Freshdesk](https://github.com/kshitizsaini113/freshdesk-mcp) - Interact with Freshdesk for customer support management
+- <img src="https://www.zendesk.com/favicon.ico" height="14"/> [Zendesk](https://github.com/reminia/mcp-zendesk) - Interact with Zendesk for customer support management
+
+<br />
+
+## 🎓 <a name="education"></a>Education
+
+Educational tools, learning platforms, and knowledge resources.
+
+- <img src="https://www.duolingo.com/favicon.ico" height="14"/> [Duolingo](https://github.com/Lorhlona/duolingomcp) - Interact with Duolingo for language learning
+- <img src="https://moodle.org/favicon.ico" height="14"/> [Moodle](https://github.com/moodlehq/moodle-local_ai_manager) - Integrate with Moodle for e-learning management
+
+<br />
+
+## 📦 <a name="package-management"></a>Package Management
+
+Tools for managing software packages and dependencies.
+
+- <img src="https://www.npmjs.com/favicon.ico" height="14"/> [npm](https://github.com/danijmoss/npm-mcp-server) - Interact with npm for JavaScript package management
+- <img src="https://pypi.org/favicon.ico" height="14"/> [PyPI](https://github.com/chrishaynes21/mcp-server-pypi) - Interact with PyPI for Python package management
+
+<br />
+
+## 🖥️ <a name="operating-system-interaction"></a>Operating System Interaction
+
+Tools for interacting with operating system functions and system resources.
+
+- [Everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) - MCP server that exercises all MCP features
+- [Time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) - Time and timezone conversion capabilities
+- [Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) - Manages terminal sessions and processes, allowing for file system search and diff/patch file editing
+
+<br />
+
+## 🚗 <a name="transportation"></a>Transportation
+
+Tools for transportation, logistics, and mobility services.
+
+- <img src="https://www.uber.com/favicon.ico" height="14"/> [Uber](https://github.com/apimatic/uber-mcp-server) - Interact with Uber for ride booking and management
+
+<br />
+
+## 🧰 <a name="miscellaneous"></a>Miscellaneous
+
+Other useful MCP servers that don't fit into specific categories.
+
+- <img src="https://www.calculator.net/favicon.ico" height="14"/> [Calculator](https://github.com/githubhenry/mcp-calculator) - Perform mathematical calculations
+- <img src="https://www.random.org/favicon.ico" height="14"/> [Random.org](https://github.com/jasonjmcghee/mcp-random) - Generate random numbers and data using Random.org API
+- [Markdown](https://github.com/zcaceres/markdownify-mcp) - Converts almost any file or URL to Markdown
+
+<br />
 
 ---
 
-### License
+<p xmlns:cc="http://creativecommons.org/ns#" >This work is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Stephen Akinyemi](https://github.com/appcypher) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
